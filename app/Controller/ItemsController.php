@@ -19,6 +19,7 @@ class ItemsController extends AppController {
  * @return void
  */
 	public function index() {
+		if ($this->Item->Event->User->find('count')==0) $this->redirect(array('controller'=>'users','action'=>'add'));
 		$this->Item->recursive = 0;
 		$this->set('items', $this->paginate());
 	}
