@@ -31,6 +31,16 @@
 					form();
 				} else {
 					if (mysql_select_db($dbas,$connection)){
+						
+						mysql_query("CREATE TABLE attributes (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50));");
+						mysql_query("CREATE TABLE events (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, description TEXT NOT NULL, item_id INT NOT NULL, user_id INT NOT NULL);");
+						mysql_query("CREATE TABLE item_places (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, place_id INT NOT NULL, item_id INT NOT NULL, count INT NOT NULL);");
+						mysql_query("CREATE TABLE items (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name TEXT NOT NULL, erased BOOLEAN);");
+						mysql_query("CREATE TABLE places (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, description TEXT NOT NULL, place_id INT);");
+						mysql_query("CREATE TABLE properties (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, attribute_id INT NOT NULL, value TEXT NOT NULL, item_id INT NOT NULL);");
+						mysql_query("CREATE TABLE uploads (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name TEXT NOT NULL, path TEXT NOT NULL, item_id INT NOT NULL, type VARCHAR(20));");
+						mysql_query("CREATE TABLE users (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, username VARCHAR(50) NOT NULL, password VARCHAR(50) NOT NULL, user_id INT NOT NULL, name TEXT NOT NULL);");
+						
 						$dir=getcwd();
 						$pos = strrpos($dir, "webroot");						
 						if ($pos !== false) $dir = substr_replace($dir, "", $pos, strlen("webroot"));
