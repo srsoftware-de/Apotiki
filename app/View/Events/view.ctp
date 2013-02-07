@@ -24,6 +24,13 @@
 			<?php echo $this->Html->link($event['User']['name'], array('controller' => 'users', 'action' => 'view', $event['User']['id'])); ?>
 			&nbsp;
 		</dd>
+		<dt>
+			<?php echo __('Created'); ?>
+		</dt>
+		<dd>
+			<?php echo h($event['Event']['created']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">

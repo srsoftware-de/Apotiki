@@ -19,8 +19,8 @@ class EventsControllerTest extends ControllerTestCase {
 		'app.place',
 		'app.property',
 		'app.attribute',
-		'app.user',
-		'app.item_event'
+		'app.upload',
+		'app.user'
 	);
 
 /**
