@@ -63,8 +63,21 @@ class ItemPlacesController extends AppController {
 			$this->Session->setFlash(__('Please create a place first!'));
 			$this->redirect(array('controller'=>'places'));
 		} else	if ($this->request->is('post')) {
-			$this->ItemPlace->create();
-			if ($this->ItemPlace->save($this->request->data)) {
+			$data=$this->request->data['ItemPlace'];
+			$this->ItemPlace->recursive = 0;
+			$first=$this->ItemPlace->find('first',array('conditions'=>array('ItemPlace.item_id'=>$data['item_id'],'ItemPlace.place_id'=>$data['place_id'])));
+			if (empty($first)){
+				$this->ItemPlace->create();
+				$saved=$this->ItemPlace->save($this->request->data);
+			} else {
+				$first=$first['ItemPlace'];
+				$first['count']+=$this->request->data['ItemPlace']['count'];
+				$saved=$this->ItemPlace->save($first);
+			}
+			//*/
+			
+			
+			if ($saved) {
 				$this->Session->setFlash(__('The item place has been saved'));
 				$this->ItemPlace->read();
 				$this->requestAction(
