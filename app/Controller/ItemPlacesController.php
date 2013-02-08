@@ -35,14 +35,20 @@ class ItemPlacesController extends AppController {
 	public function select(){
 		$data=$this->Session->read('data');
 		if ($this->request->is('post')){
-			$data['place_id']=$this->request->data['ItemPlace']['place_id'];
+			$data['itemplace_id']=$this->request->data['ItemPlace']['place_id'];
 			$this->Session->write('data',$data);
 			$this->redirect($this->Session->read('return'));			
 		}
-		$item_places=$this->ItemPlace->find('all',array('fields'=>array('ItemPlace.place_id','Place.description'),'conditions'=>array('item_id'=>$data['included_item_id'],'count>0')));
+		$item_places=$this->ItemPlace->find('all',array('fields'=>array('ItemPlace.id','Place.description'),'conditions'=>array('item_id'=>$data['included_item_id'],'count>='.$data['amount'])));
 		$places=array();
+		if (count($item_places)==0){
+			$this->Session->setFlash(__('No location holds as many items, as you want to build in! Select less items to build in!'));
+			$this->Session->delete('return');
+			$this->Session->delete('data');
+			$this->redirect(array('controller'=>'items','action'=>'view',$data['included_item_id']));
+		}
 		foreach ($item_places as $place){
-			$places[$place['ItemPlace']['place_id']]=$place['Place']['description'];
+			$places[$place['ItemPlace']['id']]=$place['Place']['description'];
 		}
 		$this->set(compact('places','return'));
 	}
@@ -141,9 +147,7 @@ class ItemPlacesController extends AppController {
 			$item=$this->ItemPlace->data['Item'];
 			$items=array($item['id']=>$item['name']);
 		} else $items = $this->ItemPlace->Item->find('list');
-		$c=compact('places', 'items');
-		print_r($c); die();
-		$this->set($c);
+		$this->set(compact('places', 'items'));
 	}
 
 	/**

@@ -4,7 +4,7 @@
 <div class="itemPlaces form">
 <?php echo $this->Form->create('ItemPlace'); ?>
 	<fieldset>
-		<legend><?php echo __('Add Item Place'); ?></legend>
+		<legend><?php echo __('Choose Item Origin'); ?></legend>
 	<?php
 		echo $this->Form->input('place_id');
 	?>

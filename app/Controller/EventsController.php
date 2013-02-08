@@ -42,7 +42,7 @@ class EventsController extends AppController {
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
+		if ($this->request->is('post')||$this->params['requested']) {
 			if (isset($this->request->params['named']['Event'])){
 				$this->request->data=$this->params['named'];
 			}
