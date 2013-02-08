@@ -40,6 +40,7 @@
 						mysql_query("CREATE TABLE properties (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, attribute_id INT NOT NULL, value TEXT NOT NULL, item_id INT NOT NULL);");
 						mysql_query("CREATE TABLE uploads (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name TEXT NOT NULL, path TEXT NOT NULL, item_id INT NOT NULL, type VARCHAR(20));");
 						mysql_query("CREATE TABLE users (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, username VARCHAR(50) NOT NULL, password VARCHAR(50) NOT NULL, user_id INT NOT NULL, name TEXT NOT NULL);");
+						mysql_query("CREATE TABLE builtins (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, item_id INT NOT NULL, amount INT NOT NULL, included_item_id INT NOT NULL);");
 						
 						$dir=getcwd();
 						$pos = strrpos($dir, "webroot");						
