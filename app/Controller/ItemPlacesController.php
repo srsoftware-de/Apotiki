@@ -31,6 +31,21 @@ class ItemPlacesController extends AppController {
 		}
 		$this->set('itemPlace', $this->ItemPlace->read(null, $id));
 	}
+	
+	public function select(){
+		$data=$this->Session->read('data');
+		if ($this->request->is('post')){
+			$data['place_id']=$this->request->data['ItemPlace']['place_id'];
+			$this->Session->write('data',$data);
+			$this->redirect($this->Session->read('return'));			
+		}
+		$item_places=$this->ItemPlace->find('all',array('fields'=>array('ItemPlace.place_id','Place.description'),'conditions'=>array('item_id'=>$data['included_item_id'],'count>0')));
+		$places=array();
+		foreach ($item_places as $place){
+			$places[$place['ItemPlace']['place_id']]=$place['Place']['description'];
+		}
+		$this->set(compact('places','return'));
+	}
 
 	/**
 	 * add method
@@ -126,7 +141,9 @@ class ItemPlacesController extends AppController {
 			$item=$this->ItemPlace->data['Item'];
 			$items=array($item['id']=>$item['name']);
 		} else $items = $this->ItemPlace->Item->find('list');
-		$this->set(compact('places', 'items'));
+		$c=compact('places', 'items');
+		print_r($c); die();
+		$this->set($c);
 	}
 
 	/**
