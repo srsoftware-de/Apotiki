@@ -7,6 +7,18 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 
+	public function beforeFilter() {
+		parent::beforeFilter();
+		if ($this->User->find('count')==0) {
+			$this->Auth->allow('add');
+			if ($this->action=='add'){
+				$this->Session->setFlash(__('Please add a first user!'));
+			} else { 			
+				$this->redirect(array('action'=>'add'));
+			}
+		}
+	}
+	
 /**
  * index method
  *
@@ -41,7 +53,9 @@ class UsersController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->User->create();
-			$this->request->data['User']['user_id'] = $this->Auth->user('id');
+			if ($this->User->find('count')==0) {
+				$this->request->data['User']['user_id']=1;
+			} else $this->request->data['User']['user_id'] = $this->Auth->user('id');
 			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('The user has been saved'));
 				$this->redirect(array('action' => 'index'));
