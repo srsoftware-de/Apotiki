@@ -48,6 +48,7 @@ class PlacesController extends AppController {
 			}
 		}
 		$places = $this->Place->find('list');
+		$places[0]=__('no outer location');
 		$this->set(compact('places'));
 	}
 

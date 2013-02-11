@@ -165,7 +165,7 @@ msgstr "Der Benutzer wurde gespeichert"
 
 #: Controller/UsersController.php:49;73
 msgid "The user could not be saved. Please, try again."
-msgstr "Der Benutzer konnte nicht gelöscht werden. Bitte nochmal versuchen."
+msgstr "Der Benutzer konnte nicht gespeichert werden. Bitte nochmal versuchen."
 
 #: Controller/UsersController.php:99
 msgid "User deleted"

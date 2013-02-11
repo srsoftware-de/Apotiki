@@ -80,7 +80,7 @@ class PropertiesController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Property->save($this->request->data)) {
 				$this->Session->setFlash(__('The property has been saved'));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('controller'=>'items','action'=>'view',$this->request->data['Property']['item_id']));
 			} else {
 				$this->Session->setFlash(__('The property could not be saved. Please, try again.'));
 			}
