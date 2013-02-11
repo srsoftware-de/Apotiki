@@ -10,7 +10,7 @@ class ItemsController extends AppController {
 	public $helpers = array('QrCode');
 	
 	public $paginate = array(
-			'limit' => 10,
+//			'limit' => 10,
 			'conditions' => array('NOT erased')
 			);
 /**

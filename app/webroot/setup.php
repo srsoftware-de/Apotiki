@@ -65,6 +65,7 @@
 							fclose($file);
 							mkdir($dir."tmp/cache/persistent",0777,true);
 							mkdir($dir."tmp/cache/models",0777,true);
+							mkdir($dir."tmp/cache/logs",0777,true);
 							header("Location: .");											
 						} else {
 							error('Was able to connect to the database server, but could not write to Config/database.php! Make sure to give the right permissions!');

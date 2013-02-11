@@ -7,6 +7,7 @@ App::uses('AppController', 'Controller');
 */
 class PropertiesController extends AppController {
 
+	
 	/**
 	 * index method
 	 *
