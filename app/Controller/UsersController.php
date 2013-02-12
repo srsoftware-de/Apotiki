@@ -1,12 +1,16 @@
 <?php
 App::uses('AppController', 'Controller');
+
+
 /**
  * Users Controller
  *
  * @property User $User
  */
 class UsersController extends AppController {
-
+	public $components = array('Openid');
+	public $uses = array();
+	
 	public function beforeFilter() {
 		parent::beforeFilter();
 		if ($this->User->find('count')==0) {
@@ -17,6 +21,8 @@ class UsersController extends AppController {
 				$this->redirect(array('action'=>'add'));
 			}
 		}
+		$this->Auth->allow('openidlogin');
+		
 	}
 	
 /**
@@ -37,10 +43,7 @@ class UsersController extends AppController {
  * @return void
  */
 	public function view($id = null) {
-		$this->User->id = $id;
-		if (!$this->User->exists()) {
-			throw new NotFoundException(__('Invalid user'));
-		}
+		if ($id==null) $id=$this->Auth->user('id');
 		$this->User->recursive=2;
 		$this->set('user', $this->User->read(null, $id));
 	}
@@ -117,6 +120,10 @@ class UsersController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 	
+	private function setMessage($message) {
+		$this->set('message', $message);
+	}
+	
 	public function login() {
 		if ($this->request->is('post')) {
 			if ($this->Auth->login()) {
@@ -125,6 +132,39 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('Invalid username or password, try again'));
 			}
 		}
+	}
+	
+	public function openidlogin() {
+		$realm = 'http://' . $_SERVER['HTTP_HOST'];
+        $returnTo = $realm . $_SERVER['REQUEST_URI'] ;
+        //die ($returnTo);
+        if ($this->request->isPost() && !$this->Openid->isOpenIDResponse()) {
+            try {
+                $this->Openid->authenticate($this->data['OpenidUrl']['openid'], $returnTo, $realm);
+            } catch (InvalidArgumentException $e) {
+                $this->set('error', 'Invalid OpenID');
+            } catch (Exception $e) {
+                $this->set('error', $e->getMessage());
+            }
+        } elseif ($this->Openid->isOpenIDResponse()) {
+            $response = $this->Openid->getResponse($returnTo);
+
+            if ($response->status == Auth_OpenID_CANCEL) {
+                $this->set('error', 'Verification cancelled');
+            } elseif ($response->status == Auth_OpenID_FAILURE) {
+                $this->set('error', 'OpenID verification failed: '.$response->message);
+            } elseif ($response->status == Auth_OpenID_SUCCESS) {
+            	$identity=$response->endpoint->claimed_id;
+            	print($identity);
+            	$identity=$this->User->Openid->read(null,$identity);
+            	if (isset($identity['User'])){
+            		$this->Auth->login($identity['User']);
+            		$this->redirect(array('controller'=>'items','action'=>'index'));
+            	} else {
+            		$this->set('error', 'OpenID verification successfull, but openid not assigned to any user!');
+            	}
+            }
+        }
 	}
 	
 	public function logout() {

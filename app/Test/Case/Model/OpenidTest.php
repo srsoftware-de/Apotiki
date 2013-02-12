@@ -1,11 +1,11 @@
 <?php
-App::uses('User', 'Model');
+App::uses('Openid', 'Model');
 
 /**
- * User Test Case
+ * Openid Test Case
  *
  */
-class UserTest extends CakeTestCase {
+class OpenidTest extends CakeTestCase {
 
 /**
  * Fixtures
@@ -13,6 +13,7 @@ class UserTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
+		'app.openid',
 		'app.user',
 		'app.event',
 		'app.item',
@@ -20,8 +21,7 @@ class UserTest extends CakeTestCase {
 		'app.place',
 		'app.property',
 		'app.attribute',
-		'app.upload',
-		'app.openid'
+		'app.upload'
 	);
 
 /**
@@ -31,7 +31,7 @@ class UserTest extends CakeTestCase {
  */
 	public function setUp() {
 		parent::setUp();
-		$this->User = ClassRegistry::init('User');
+		$this->Openid = ClassRegistry::init('Openid');
 	}
 
 /**
@@ -40,7 +40,7 @@ class UserTest extends CakeTestCase {
  * @return void
  */
 	public function tearDown() {
-		unset($this->User);
+		unset($this->Openid);
 
 		parent::tearDown();
 	}

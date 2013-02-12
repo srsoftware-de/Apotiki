@@ -6,6 +6,7 @@ App::uses('AuthComponent', 'Controller/Component');
  *
  * @property User $User
  * @property Event $Event
+ * @property Openid $Openid
  * @property User $User
  */
 class User extends AppModel {
@@ -90,6 +91,19 @@ class User extends AppModel {
 	public $hasMany = array(
 		'Event' => array(
 			'className' => 'Event',
+			'foreignKey' => 'user_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Openid' => array(
+			'className' => 'Openid',
 			'foreignKey' => 'user_id',
 			'dependent' => false,
 			'conditions' => '',

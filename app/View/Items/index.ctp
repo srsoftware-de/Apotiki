@@ -1,6 +1,7 @@
 <div class="actions">
+	<?php echo $this->Html->link(__('Profile'),array('controller'=>'users','action'=>'view'))?>
 	<?php echo $this->Html->link(__('Logout'),array('controller'=>'users','action'=>'logout'))?>
-</div>
+	</div>
 <div class="items index">
 	<h2>
 		<?php echo __('Items'); ?>

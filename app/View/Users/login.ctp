@@ -7,5 +7,9 @@
         echo $this->Form->input('password');
     ?>
     </fieldset>
-<?php echo $this->Form->end(__('Login')); ?>
+<?php
+echo $this->Form->end(__('Login'));
+
+echo $this->Html->link(__('Login with OpenId'),array('action'=>'openidlogin')); 
+?>
 </div>
