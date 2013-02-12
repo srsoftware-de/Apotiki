@@ -16,272 +16,272 @@ msgstr ""
 
 #: Controller/AttributesController.php:30;62;90
 msgid "Invalid attribute"
-msgstr "Ungültiges Attribut"
+msgstr ""
 
 #: Controller/AttributesController.php:44;66
 msgid "The attribute has been saved"
-msgstr "Das Attribut wurde gespeichert"
+msgstr ""
 
 #: Controller/AttributesController.php:47;69
 msgid "The attribute could not be saved. Please, try again."
-msgstr "Das Attribut konnte nicht gespeichert werden, bitte nochmal versuchen."
+msgstr ""
 
 #: Controller/AttributesController.php:93
 msgid "Attribute deleted"
-msgstr "Attribut entfernt"
+msgstr ""
 
 #: Controller/AttributesController.php:96
 msgid "Attribute was not deleted"
-msgstr "Attribut konnte nicht entfernt werden"
+msgstr ""
 
 #: Controller/BuiltinsController.php:30;92;123
 msgid "Invalid builtin"
-msgstr "Ungültiger Einbau"
+msgstr ""
 
 #: Controller/BuiltinsController.php:56
 msgid "Built into"
-msgstr "Verbaut in"
+msgstr ""
 
 #: Controller/BuiltinsController.php:60;96
 msgid "The builtin has been saved"
-msgstr "Der Einbau wurde gespeichert"
+msgstr ""
 
 #: Controller/BuiltinsController.php:63;99
 msgid "The builtin could not be saved. Please, try again."
-msgstr "Der Einbau konnte nicht gespeichert werden. Bitte versuchen Sie es nochmal."
+msgstr ""
 
 #: Controller/BuiltinsController.php:126
 msgid "Builtin deleted"
-msgstr "Verbaut-In-Eintrag wurde gelöscht."
+msgstr ""
 
 #: Controller/BuiltinsController.php:129
 msgid "Builtin was not deleted"
-msgstr "Verbaut-In-Eintrag wurde nicht gelöscht."
+msgstr ""
 
 #: Controller/EventsController.php:34;74;105
 msgid "Invalid event"
-msgstr "Ungültiges Ereignis"
+msgstr ""
 
 #: Controller/EventsController.php:51;78
 msgid "The event has been saved"
-msgstr "Das Ereignis wurde gespeichert"
+msgstr ""
 
 #: Controller/EventsController.php:56;81
 msgid "The event could not be saved. Please, try again."
-msgstr "Das Ereignis konnte nicht gespeichert werden. Bitte nochmal versuchen."
+msgstr ""
 
 #: Controller/EventsController.php:108
 msgid "Event deleted"
-msgstr "Ereignis gelöscht"
+msgstr ""
 
 #: Controller/EventsController.php:111
 msgid "Event was not deleted"
-msgstr "Ereignis konnte nicht gelöscht werden"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:30;110;180
 msgid "Invalid item place"
-msgstr "Ungültiger Ort für Objekt"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:45
 msgid "No location holds as many items, as you want to build in! Select less items to build in!"
-msgstr "An keinem Lagerot befinden sich so viele Objekte, wie Sie verbauen wollen. Wählen Sie weniger zu verbauende Objekte!"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:63
 #: Controller/ItemsController.php:50
 msgid "Please create a place first!"
-msgstr "Bitte legen Sie zuerst einen Ort an!"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:81
 msgid "The item place has been saved"
-msgstr "Der Ort des Objektes wurde gespeichert"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:85
 msgid "Moved to"
-msgstr "verlagert nach"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:89
 msgid "The item place could not be saved. Please, try again."
-msgstr "Der Ort des Objektes konnte nicht gespeichert werden, bitte nochmal versuchen."
+msgstr ""
 
 #: Controller/ItemPlacesController.php:123
 msgid "You try to move more objects than available"
-msgstr "Sie versuchen mehr Objekte zu verschieben, als vorhanden sind!"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:145;148
 msgid "Moved "
-msgstr "Verschoben: "
+msgstr ""
 
 #: Controller/ItemPlacesController.php:184
 msgid "Item place deleted"
-msgstr "Ort des Objektes gelöscht"
+msgstr ""
 
 #: Controller/ItemPlacesController.php:185
 msgid "Item place was not deleted"
-msgstr "Ort des Objektes konnte nicht gelöscht werden"
+msgstr ""
 
 #: Controller/ItemsController.php:37;76;104
 msgid "Invalid item"
-msgstr "Ungültiges Objekt"
+msgstr ""
 
 #: Controller/ItemsController.php:57
 msgid "Created Object"
-msgstr "Objekt angelegt"
+msgstr ""
 
 #: Controller/ItemsController.php:58;80
 msgid "The item has been saved"
-msgstr "Objekt wurde gespeichert"
+msgstr ""
 
 #: Controller/ItemsController.php:61;83
 msgid "The item could not be saved. Please, try again."
-msgstr "Das Objekt konnte nicht gepsiechert werden, bitte nochmal versuchen"
+msgstr ""
 
 #: Controller/ItemsController.php:111
 msgid "Deleted Object"
-msgstr "Objekt entfernt"
+msgstr ""
 
 #: Controller/ItemsController.php:113
 msgid "Item deleted"
-msgstr "Objekt entfernt"
+msgstr ""
 
 #: Controller/ItemsController.php:116
 msgid "Item was not deleted"
-msgstr "Objekt konnte nicht gelöscht werden"
+msgstr ""
 
 #: Controller/OpenidsController.php:30;64;94
 msgid "Invalid openid"
-msgstr "ungültige OpenID"
+msgstr ""
 
 #: Controller/OpenidsController.php:44;68
 msgid "The openid has been saved"
-msgstr "die OpenID wurde gespeichert"
+msgstr ""
 
 #: Controller/OpenidsController.php:47;71
 msgid "The openid could not be saved. Please, try again."
-msgstr "Die OpenID konnte nicht gespeichert werden, bitte nochmal versuchen"
+msgstr ""
 
 #: Controller/OpenidsController.php:97
 msgid "Openid deleted"
-msgstr "OpenID gelöscht"
+msgstr ""
 
 #: Controller/OpenidsController.php:100
 msgid "Openid was not deleted"
-msgstr "OpenID konnte nicht gelöscht werden"
+msgstr ""
 
 #: Controller/PlacesController.php:30;65;96
 msgid "Invalid place"
-msgstr "Ungültiger Ort"
+msgstr ""
 
 #: Controller/PlacesController.php:44;69
 msgid "The place has been saved"
-msgstr "Der Ort wurde gespeichert"
+msgstr ""
 
 #: Controller/PlacesController.php:47;72
 msgid "The place could not be saved. Please, try again."
-msgstr "Der Ort konnte nicht gespeichert werden. Bitte nochmal versuchen."
+msgstr ""
 
 #: Controller/PlacesController.php:51
 msgid "no outer location"
-msgstr "kein umgebender Ort"
+msgstr ""
 
 #: Controller/PlacesController.php:99
 msgid "Place deleted"
-msgstr "Ort entfernt"
+msgstr ""
 
 #: Controller/PlacesController.php:102
 msgid "Place was not deleted"
-msgstr "Ort konnte nicht entfernt werden"
+msgstr ""
 
 #: Controller/PropertiesController.php:31;79;110
 msgid "Invalid property"
-msgstr "Ungültige Eingenschaft"
+msgstr ""
 
 #: Controller/PropertiesController.php:43
 msgid "Please create an attribute first!"
-msgstr "Bitte erzeugen Sie zunächst ein Attribut"
+msgstr ""
 
 #: Controller/PropertiesController.php:53
 msgid "Added Property"
-msgstr "Eigenschaft erzeugt"
+msgstr ""
 
 #: Controller/PropertiesController.php:54;83
 msgid "The property has been saved"
-msgstr "Die Eigenschaft wurde gespeichert."
+msgstr ""
 
 #: Controller/PropertiesController.php:59;86
 msgid "The property could not be saved. Please, try again."
-msgstr "Die Eigenschaft konnte nicht gespeichert werden, bitte nochmals versuchen."
+msgstr ""
 
 #: Controller/PropertiesController.php:117
 msgid "Deleted Property"
-msgstr "Eigenschaft entfernt"
+msgstr ""
 
 #: Controller/PropertiesController.php:119
 msgid "Property deleted"
-msgstr "Eigenschaft entfernt"
+msgstr ""
 
 #: Controller/PropertiesController.php:122
 msgid "Property was not deleted"
-msgstr "Eigenschaft konnte nicht entfernt werden"
+msgstr ""
 
 #: Controller/UploadsController.php:30;83;113;133
 msgid "Invalid upload"
-msgstr "Ungültiger Upload"
+msgstr ""
 
 #: Controller/UploadsController.php:60
 msgid "Uploded"
-msgstr "Hochgeladen"
+msgstr ""
 
 #: Controller/UploadsController.php:61;87
 msgid "The upload has been saved"
-msgstr "Die Datei wurde gespeichert"
+msgstr ""
 
 #: Controller/UploadsController.php:64;90
 msgid "The upload could not be saved. Please, try again."
-msgstr "Der Upload ist fehlgeschlagen, bitte nochmal verscuhen."
+msgstr ""
 
 #: Controller/UploadsController.php:122
 msgid "Deleted"
-msgstr "Entfernt"
+msgstr ""
 
 #: Controller/UploadsController.php:123
 msgid "Upload deleted"
-msgstr "Upload gelöscht"
+msgstr ""
 
 #: Controller/UploadsController.php:126
 msgid "Upload was not deleted"
-msgstr "Upload konnte nicht gelöscht werden"
+msgstr ""
 
 #: Controller/UsersController.php:19
 msgid "Please add a first user!"
-msgstr "Bitte legen Sie einen ersten Nutzer an!"
+msgstr ""
 
 #: Controller/UsersController.php:63;87
 msgid "The user has been saved"
-msgstr "Der Benutzer wurde gespeichert"
+msgstr ""
 
 #: Controller/UsersController.php:66;90
 msgid "The user could not be saved. Please, try again."
-msgstr "Der Benutzer konnte nicht gespeichert werden. Bitte nochmal versuchen."
+msgstr ""
 
 #: Controller/UsersController.php:83;113
 msgid "Invalid user"
-msgstr "Ungültiger Benutzer"
+msgstr ""
 
 #: Controller/UsersController.php:116
 msgid "User deleted"
-msgstr "Benutzer entfernt"
+msgstr ""
 
 #: Controller/UsersController.php:119
 msgid "User was not deleted"
-msgstr "Benutzer konnte nicht gelöscht werden"
+msgstr ""
 
 #: Controller/UsersController.php:132
 msgid "Invalid username or password, try again"
-msgstr "Ungülige NUtzername-Passwort-Kombination. Bitte nochmal versuchen."
+msgstr ""
 
 #: Controller/Component/OpenidComponent.php:300
 msgid "OpenID Authentication Redirect"
-msgstr "Weiterleitung zur OpenID-Authentifizierung"
+msgstr ""
 
 #: View/Attributes/add.ctp:2
 #: View/Events/add.ctp:2
@@ -305,11 +305,11 @@ msgstr "Weiterleitung zur OpenID-Authentifizierung"
 #: View/Users/index.ctp:2
 #: View/Users/view.ctp:1
 msgid "Logout"
-msgstr "Ausloggen"
+msgstr ""
 
 #: View/Attributes/add.ctp:8
 msgid "Add Attribute"
-msgstr "Attribut hinzufügen"
+msgstr ""
 
 #: View/Attributes/add.ctp:14
 #: View/Attributes/edit.ctp:11
@@ -332,7 +332,7 @@ msgstr "Attribut hinzufügen"
 #: View/Users/add.ctp:13
 #: View/Users/edit.ctp:16
 msgid "Submit"
-msgstr "Absenden"
+msgstr ""
 
 #: View/Attributes/add.ctp:18
 #: View/Attributes/edit.ctp:14
@@ -375,7 +375,7 @@ msgstr "Absenden"
 #: View/Users/index.ctp:14;48
 #: View/Users/view.ctp:33;55
 msgid "Actions"
-msgstr "Aktionen"
+msgstr ""
 
 #: View/Attributes/add.ctp:21
 #: View/Attributes/edit.ctp:20
@@ -412,7 +412,7 @@ msgstr "Aktionen"
 #: View/Users/index.ctp:51
 #: View/Users/view.ctp:58
 msgid "New Item"
-msgstr "Neues Objekt"
+msgstr ""
 
 #: View/Attributes/add.ctp:23
 #: View/ItemPlaces/add.ctp:23
@@ -428,7 +428,7 @@ msgstr "Neues Objekt"
 #: View/Uploads/index.ctp:55
 #: View/Uploads/view.ctp:41
 msgid "New Place"
-msgstr "Neuer Ort"
+msgstr ""
 
 #: View/Attributes/add.ctp:25
 #: View/Attributes/view.ctp:25
@@ -453,7 +453,7 @@ msgstr "Neuer Ort"
 #: View/Users/index.ctp:55
 #: View/Users/view.ctp:62
 msgid "New Property"
-msgstr "Neue Eigenschaft"
+msgstr ""
 
 #: View/Attributes/add.ctp:27
 #: View/Attributes/edit.ctp:21
@@ -484,7 +484,7 @@ msgstr "Neue Eigenschaft"
 #: View/Users/index.ctp:57
 #: View/Users/view.ctp:64
 msgid "New User"
-msgstr "Neuer Benutzer"
+msgstr ""
 
 #: View/Attributes/add.ctp:34
 #: View/Events/add.ctp:33
@@ -508,7 +508,7 @@ msgstr "Neuer Benutzer"
 #: View/Users/index.ctp:63
 #: View/Users/view.ctp:70
 msgid "Lists"
-msgstr "Listen"
+msgstr ""
 
 #: View/Attributes/add.ctp:37
 #: View/Attributes/edit.ctp:19
@@ -545,7 +545,7 @@ msgstr "Listen"
 #: View/Users/index.ctp:66
 #: View/Users/view.ctp:73
 msgid "List Items"
-msgstr "Objekte auflisten"
+msgstr ""
 
 #: View/Attributes/add.ctp:39
 #: View/Events/add.ctp:38
@@ -571,7 +571,7 @@ msgstr "Objekte auflisten"
 #: View/Users/index.ctp:68
 #: View/Users/view.ctp:75
 msgid "List Events"
-msgstr "Ereignisse auflisten"
+msgstr ""
 
 #: View/Attributes/add.ctp:41
 #: View/Events/add.ctp:40
@@ -598,7 +598,7 @@ msgstr "Ereignisse auflisten"
 #: View/Users/index.ctp:70
 #: View/Users/view.ctp:77
 msgid "List Places"
-msgstr "Orte auflisten"
+msgstr ""
 
 #: View/Attributes/add.ctp:43
 #: View/Attributes/view.ctp:24
@@ -624,7 +624,7 @@ msgstr "Orte auflisten"
 #: View/Users/index.ctp:72
 #: View/Users/view.ctp:79
 msgid "List Properties"
-msgstr "Eigenschaften auflisten"
+msgstr ""
 
 #: View/Attributes/add.ctp:45
 #: View/Events/add.ctp:44
@@ -654,12 +654,12 @@ msgstr "Eigenschaften auflisten"
 #: View/Users/index.ctp:74
 #: View/Users/view.ctp:81
 msgid "List Users"
-msgstr "Benutzer auflisten"
+msgstr ""
 
 #: View/Attributes/edit.ctp:5
 #: View/Attributes/view.ctp:20
 msgid "Edit Attribute"
-msgstr "Attribut bearbeiten"
+msgstr ""
 
 #: View/Attributes/edit.ctp:17
 #: View/Attributes/index.ctp:18
@@ -683,7 +683,7 @@ msgstr "Attribut bearbeiten"
 #: View/Users/index.ctp:25
 #: View/Users/view.ctp:45
 msgid "Delete"
-msgstr "Entfernen"
+msgstr ""
 
 #: View/Attributes/edit.ctp:17
 #: View/Attributes/index.ctp:18
@@ -711,18 +711,18 @@ msgstr "Entfernen"
 #: View/Users/index.ctp:25
 #: View/Users/view.ctp:45
 msgid "Are you sure you want to delete # %s?"
-msgstr "Wollen Sie #%s wirklich löschen?"
+msgstr ""
 
 #: View/Attributes/edit.ctp:18
 #: View/Attributes/view.ctp:22
 #: View/Properties/edit.ctp:20
 #: View/Properties/view.ctp:33
 msgid "List Attributes"
-msgstr "Attribute auflisten"
+msgstr ""
 
 #: View/Attributes/index.ctp:3
 msgid "Attributes"
-msgstr "Attribute"
+msgstr ""
 
 #: View/Attributes/index.ctp:16
 #: View/Attributes/view.ctp:48
@@ -738,7 +738,7 @@ msgstr "Attribute"
 #: View/Users/index.ctp:23
 #: View/Users/view.ctp:43
 msgid "View"
-msgstr "Zeigen"
+msgstr ""
 
 #: View/Attributes/index.ctp:17
 #: View/Attributes/view.ctp:49
@@ -755,7 +755,7 @@ msgstr "Zeigen"
 #: View/Users/index.ctp:24
 #: View/Users/view.ctp:44
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr ""
 
 #: View/Attributes/index.ctp:26
 #: View/Builtins/index.ctp:33
@@ -768,7 +768,7 @@ msgstr "Bearbeiten"
 #: View/Uploads/index.ctp:36
 #: View/Users/index.ctp:33
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
-msgstr "Seite {:page} von {:pages}, zeige {:current} Einträge von {:count} gesamt, beginnend mit Eintrag {:start}, endend mit {:end}"
+msgstr ""
 
 #: View/Attributes/index.ctp:32
 #: View/Builtins/index.ctp:39
@@ -781,7 +781,7 @@ msgstr "Seite {:page} von {:pages}, zeige {:current} Einträge von {:count} gesa
 #: View/Uploads/index.ctp:42
 #: View/Users/index.ctp:40
 msgid "previous"
-msgstr "zurück"
+msgstr ""
 
 #: View/Attributes/index.ctp:34
 #: View/Builtins/index.ctp:41
@@ -794,7 +794,7 @@ msgstr "zurück"
 #: View/Uploads/index.ctp:44
 #: View/Users/index.ctp:42
 msgid "next"
-msgstr "weiter"
+msgstr ""
 
 #: View/Attributes/index.ctp:41
 #: View/Attributes/view.ctp:23
@@ -809,7 +809,7 @@ msgstr ""
 #: View/Items/view.ctp:47
 #: View/Properties/view.ctp:9
 msgid "Attribute"
-msgstr "Attribut"
+msgstr ""
 
 #: View/Attributes/view.ctp:5;33
 #: View/Builtins/view.ctp:4
@@ -820,7 +820,7 @@ msgstr "Attribut"
 #: View/Uploads/view.ctp:7
 #: View/Users/view.ctp:4;30
 msgid "Id"
-msgstr "ID"
+msgstr ""
 
 #: View/Attributes/view.ctp:10
 #: View/Items/view.ctp:17
@@ -828,64 +828,64 @@ msgstr "ID"
 #: View/Uploads/view.ctp:12
 #: View/Users/view.ctp:14
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: View/Attributes/view.ctp:21
 msgid "Delete Attribute"
-msgstr "Attribut entfernen"
+msgstr ""
 
 #: View/Attributes/view.ctp:29
 #: View/Items/view.ctp:42
 msgid "Related Properties"
-msgstr "zugehörige Eigenschaften"
+msgstr ""
 
 #: View/Attributes/view.ctp:34
 msgid "Attribute Id"
-msgstr "Attribut-ID"
+msgstr ""
 
 #: View/Attributes/view.ctp:35
 #: View/Items/view.ctp:48
 #: View/Properties/add.ctp:11
 #: View/Properties/view.ctp:14
 msgid "Value"
-msgstr "Wert"
+msgstr ""
 
 #: View/Attributes/view.ctp:36
 #: View/Users/view.ctp:32
 msgid "Item Id"
-msgstr "Objekt-ID"
+msgstr ""
 
 #: View/Builtins/add.ctp:5
 msgid "Add Builtin"
-msgstr "Neuer Verbaut-In-Eintrag"
+msgstr ""
 
 #: View/Builtins/add.ctp:10
 msgid "included in"
-msgstr "befinded sich in"
+msgstr ""
 
 #: View/Builtins/add.ctp:21
 #: View/Builtins/edit.ctp:19
 #: View/Builtins/view.ctp:31
 msgid "List Builtins"
-msgstr "Einbauten auflisten"
+msgstr ""
 
 #: View/Builtins/edit.ctp:4
 #: View/Builtins/view.ctp:29
 msgid "Edit Builtin"
-msgstr "Einbau bearbeiten"
+msgstr ""
 
 #: View/Builtins/index.ctp:2
 msgid "Builtins"
-msgstr "Einbauten"
+msgstr ""
 
 #: View/Builtins/index.ctp:48
 #: View/Builtins/view.ctp:32
 msgid "New Builtin"
-msgstr "Neuer Einbau"
+msgstr ""
 
 #: View/Builtins/view.ctp:2
 msgid "Builtin"
-msgstr "Einbau"
+msgstr ""
 
 #: View/Builtins/view.ctp:9
 #: View/Events/view.ctp:17
@@ -895,23 +895,23 @@ msgstr "Einbau"
 #: View/Properties/view.ctp:19
 #: View/Uploads/view.ctp:22
 msgid "Item"
-msgstr "Objekt"
+msgstr ""
 
 #: View/Builtins/view.ctp:14
 msgid "Amount"
-msgstr "Anzahl"
+msgstr ""
 
 #: View/Builtins/view.ctp:19
 msgid "Included Item"
-msgstr "eingeschlossenes Objekt"
+msgstr ""
 
 #: View/Builtins/view.ctp:30
 msgid "Delete Builtin"
-msgstr "Verbaut-In-Eintrag löschen"
+msgstr ""
 
 #: View/Events/add.ctp:7
 msgid "Add Event"
-msgstr "Ereignis hinzufügen"
+msgstr ""
 
 #: View/Events/add.ctp:23
 #: View/Events/edit.ctp:24
@@ -927,314 +927,322 @@ msgstr "Ereignis hinzufügen"
 #: View/Users/index.ctp:53
 #: View/Users/view.ctp:60
 msgid "New Item Place"
-msgstr "Neuer Ort für Objekt"
+msgstr ""
 
 #: View/Events/edit.ctp:7
 msgid "Edit Event"
-msgstr "Ereignis bearbeiten"
+msgstr ""
 
 #: View/Events/index.ctp:6
 msgid "Events"
-msgstr "Ereignisse"
+msgstr ""
 
 #: View/Events/view.ctp:5
 msgid "Event"
-msgstr "Ereignis"
+msgstr ""
 
 #: View/Events/view.ctp:12
 #: View/Items/view.ctp:150
 #: View/Places/view.ctp:9;38
 #: View/Users/view.ctp:31
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: View/Events/view.ctp:22
 #: View/Items/view.ctp:151
 #: View/Openids/view.ctp:9
 #: View/Users/view.ctp:2
 msgid "User"
-msgstr "Benutzer"
+msgstr ""
+
+#: View/Events/view.ctp:28
+msgid "Created"
+msgstr ""
 
 #: View/ItemPlaces/add.ctp:7
 msgid "Add Item Place"
-msgstr "Ort für Objekt hinzufügen"
+msgstr ""
 
 #: View/ItemPlaces/index.ctp:6
 msgid "Item Places"
-msgstr "Orte der Objekte"
+msgstr ""
 
 #: View/ItemPlaces/index.ctp:12
 msgid "Location"
-msgstr "Lokalisierung"
+msgstr ""
 
 #: View/ItemPlaces/index.ctp:14
 #: View/ItemPlaces/view.ctp:5
 #: View/Items/view.ctp:116
 msgid "Count"
-msgstr "Anzahl"
+msgstr ""
 
 #: View/ItemPlaces/move.ctp:5
 msgid "Move Item"
-msgstr "Objekt verlagern"
+msgstr ""
 
 #: View/ItemPlaces/move.ctp:9
 msgid "Destination"
-msgstr "Ziel"
+msgstr ""
 
 #: View/ItemPlaces/move.ctp:19
 #: View/ItemPlaces/view.ctp:28
 msgid "List Item Places"
-msgstr "Orte der Objekte auflisten"
+msgstr ""
 
 #: View/ItemPlaces/select.ctp:7
 msgid "Choose Item Origin"
-msgstr "Orsprungsort des Objekts wählen"
+msgstr ""
 
 #: View/ItemPlaces/view.ctp:3
 msgid "Item Place"
-msgstr "Ort des Objekts"
+msgstr ""
 
 #: View/ItemPlaces/view.ctp:16
 #: View/Places/view.ctp:2
 msgid "Place"
-msgstr "Ort"
+msgstr ""
 
 #: View/ItemPlaces/view.ctp:26
 msgid "Edit Item Place"
-msgstr "Ort des Objekts bearbeiten"
+msgstr ""
 
 #: View/ItemPlaces/view.ctp:27
 msgid "Delete Item Place"
-msgstr "Ort des Objekts löschen"
+msgstr ""
 
 #: View/Items/add.ctp:7
 msgid "Add Item"
-msgstr "Objekt hinzufühgen"
+msgstr ""
 
 #: View/Items/edit.ctp:7
 msgid "Edit Item"
-msgstr "Objekt bearbeiten"
+msgstr ""
 
 #: View/Items/index.ctp:2
 msgid "Profile"
-msgstr "Profil"
+msgstr ""
 
 #: View/Items/index.ctp:7
 msgid "Items"
-msgstr "Objekte"
+msgstr ""
 
 #: View/Items/index.ctp:23
 msgid "Label"
-msgstr "Etikett"
+msgstr ""
 
 #: View/Items/view.ctp:24
 #: View/Places/view.ctp:72
 msgid "Erased"
-msgstr "Entfernt"
+msgstr ""
 
 #: View/Items/view.ctp:29
 msgid "yes"
-msgstr "ja"
+msgstr ""
 
 #: View/Items/view.ctp:30
 msgid "no"
-msgstr "nein"
+msgstr ""
 
 #: View/Items/view.ctp:36
 msgid "Create Label"
-msgstr "Etikett erzeugen"
+msgstr ""
 
 #: View/Items/view.ctp:60;94
 msgid "Are you sure you want to delete \"%s\"?"
-msgstr "Wollen Sie \"%s\" wirklich löschen?"
+msgstr ""
 
 #: View/Items/view.ctp:76
 msgid "Related Files"
-msgstr "zugehörige Dateien"
+msgstr ""
 
 #: View/Items/view.ctp:81
 msgid "File Name"
-msgstr "Dateiname"
+msgstr ""
 
 #: View/Items/view.ctp:82
 #: View/Uploads/view.ctp:27
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 #: View/Items/view.ctp:103;185
 msgid "Add File"
-msgstr "Datei hinzufügen"
+msgstr ""
 
 #: View/Items/view.ctp:110
 msgid "Related Item Places"
-msgstr "zugehörige Orte des Objekts"
+msgstr ""
 
 #: View/Items/view.ctp:115
 msgid "Place "
-msgstr "Orte "
+msgstr ""
+
+#: View/Items/view.ctp:127
+msgid "Move"
+msgstr ""
 
 #: View/Items/view.ctp:144
 #: View/Users/view.ctp:26
 msgid "Related Events"
-msgstr "zugehörige Ereignisse"
+msgstr ""
 
 #: View/Items/view.ctp:168
 msgid "New Event"
-msgstr "neues Ereignis"
+msgstr ""
 
 #: View/Openids/add.ctp:4
 msgid "Add Openid"
-msgstr "OpenID hinzufügen"
+msgstr ""
 
 #: View/Openids/add.ctp:15
 #: View/Openids/edit.ctp:17
 #: View/Openids/view.ctp:21
 msgid "List Openids"
-msgstr "OpenIDs auflisten"
+msgstr ""
 
 #: View/Openids/edit.ctp:4
 #: View/Openids/view.ctp:19
 msgid "Edit Openid"
-msgstr "OpenID bearbeiten"
+msgstr ""
 
 #: View/Openids/index.ctp:2
 msgid "Openids"
-msgstr "OpenIDs"
+msgstr ""
 
 #: View/Openids/index.ctp:42
 #: View/Openids/view.ctp:22
 msgid "New Openid"
-msgstr "neue OpenID"
+msgstr ""
 
 #: View/Openids/view.ctp:2
 msgid "Openid"
-msgstr "OpenID"
+msgstr ""
 
 #: View/Openids/view.ctp:4
 msgid "Identity"
-msgstr "Identität"
+msgstr ""
 
 #: View/Openids/view.ctp:20
 msgid "Delete Openid"
-msgstr "OpenID löschen"
+msgstr ""
 
 #: View/Places/add.ctp:7
 msgid "Add Place"
-msgstr "Ort hinzufügen"
+msgstr ""
 
 #: View/Places/add.ctp:9
 msgid "Name this place:"
-msgstr "Bennenen Sie den Ort:"
+msgstr ""
 
 #: View/Places/add.ctp:11
 msgid "located at"
-msgstr "befindet sich wo?"
+msgstr ""
 
 #: View/Places/edit.ctp:4
 #: View/Places/view.ctp:24
 msgid "Edit Place"
-msgstr "Ort bearbeiten"
+msgstr ""
 
 #: View/Places/index.ctp:5
 msgid "Places"
-msgstr "Orte"
+msgstr ""
 
 #: View/Places/view.ctp:14
 msgid "Outer Place"
-msgstr "Umgebender Ort"
+msgstr ""
 
 #: View/Places/view.ctp:25
 msgid "Delete Place"
-msgstr "Ort löschen"
+msgstr ""
 
 #: View/Places/view.ctp:33
 msgid "Related Places"
-msgstr "zugehörige Orte"
+msgstr ""
 
 #: View/Places/view.ctp:39
 msgid "Place Id"
-msgstr "Orts-ID"
+msgstr ""
 
 #: View/Places/view.ctp:61
 msgid "New Inner Place"
-msgstr "neuer Ort darin"
+msgstr ""
 
 #: View/Places/view.ctp:66
 msgid "Related Items"
-msgstr "zugehörige Objekte"
+msgstr ""
 
 #: View/Properties/add.ctp:6
 msgid "Add Property"
-msgstr "Eigenschaft hinzufügen"
+msgstr ""
 
 #: View/Properties/edit.ctp:4
 #: View/Properties/view.ctp:29
 msgid "Edit Property"
-msgstr "Eigenschaft bearbeiten"
+msgstr ""
 
 #: View/Properties/index.ctp:6
 msgid "Properties"
-msgstr "Eigenschaften"
+msgstr ""
 
 #: View/Properties/view.ctp:2
 msgid "Property"
-msgstr "Eigenschaft"
+msgstr ""
 
 #: View/Properties/view.ctp:30
 msgid "Delete Property"
-msgstr "Eigenschaft entfernen"
+msgstr ""
 
 #: View/Uploads/add.ctp:7
 msgid "Upload File"
-msgstr "Datei hochladen"
+msgstr ""
 
 #: View/Uploads/index.ctp:5
 msgid "Uploads"
-msgstr "Uploads"
+msgstr ""
 
 #: View/Uploads/view.ctp:5
 msgid "Upload"
-msgstr "Upload"
+msgstr ""
 
 #: View/Uploads/view.ctp:17
 msgid "Path"
-msgstr "Pfad"
+msgstr ""
 
 #: View/Users/add.ctp:5
 msgid "Add User"
-msgstr "Nutzer hinzufügen"
+msgstr ""
 
 #: View/Users/add.ctp:8
 msgid "Complete Name"
-msgstr "vollständiger Name"
+msgstr ""
 
 #: View/Users/edit.ctp:7
 msgid "Edit User"
-msgstr "Nutezer bearbeiten"
+msgstr ""
 
 #: View/Users/index.ctp:6
 msgid "Users"
-msgstr "Nutzer"
+msgstr ""
 
 #: View/Users/login.ctp:5
 msgid "Please login using Username and Password:"
-msgstr "Bitte mit Benutzername und Passwort anmelden"
+msgstr ""
 
 #: View/Users/login.ctp:11
 msgid "Login"
-msgstr "Einloggen"
+msgstr ""
 
 #: View/Users/login.ctp:13
 msgid "Login with OpenId"
-msgstr "mit OpenID Einloggen"
+msgstr ""
 
 #: View/Users/view.ctp:9
 msgid "Username"
-msgstr "Benutzername"
+msgstr ""
 
 #: View/Users/view.ctp:19
 msgid "Supervisor"
-msgstr "Betreuer"
+msgstr ""
 
 #: Model/Attribute.php:validation for field name
 #: Model/Event.php:validation for field description
@@ -1245,7 +1253,7 @@ msgstr "Betreuer"
 #: Model/Upload.php:validation for field name;validation for field path
 #: Model/User.php:validation for field username;validation for field password;validation for field name
 msgid "notempty"
-msgstr "nicht-leer"
+msgstr ""
 
 #: Model/Builtin.php:validation for field item_id;validation for field amount;validation for field included_item_id
 #: Model/Event.php:validation for field item_id;validation for field user_id
@@ -1254,8 +1262,9 @@ msgstr "nicht-leer"
 #: Model/Upload.php:validation for field item_id
 #: Model/User.php:validation for field user_id
 msgid "numeric"
-msgstr "numerisch"
+msgstr ""
 
 #: Model/Item.php:validation for field erased
 msgid "boolean"
-msgstr "boolean"
+msgstr ""
+
