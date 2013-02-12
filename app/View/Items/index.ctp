@@ -1,7 +1,6 @@
 <div class="actions">
-	<?php echo $this->Html->link(__('Profile'),array('controller'=>'users','action'=>'view'))?>
-	<?php echo $this->Html->link(__('Logout'),array('controller'=>'users','action'=>'logout'))?>
-	</div>
+	<?php $top=$navi['top']; foreach ($top as $key=>$value) echo $this->Html->link($key,$value)."&nbsp;"; ?>
+</div>
 <div class="items index">
 	<h2>
 		<?php echo __('Items'); ?>
@@ -48,14 +47,7 @@
 		<?php echo __('Actions'); ?>
 	</h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Item'), array('controller' => 'items', 'action' => 'add')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('New Place'), array('controller' => 'places', 'action' => 'add')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('New Property'), array('controller' => 'properties', 'action' => 'add')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?>
-		</li>
+		<?php $new=$navi['new']; foreach ($new as $key=>$value) echo "<li>".$this->Html->link($key,$value)."</li>\n"; ?>	
 	</ul>
 </div>
 <div class="actions">
@@ -63,15 +55,6 @@
 		<?php echo __('Lists'); ?>
 	</h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('List Items'), array('controller' => 'items', 'action' => 'index')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('List Events'), array('controller' => 'events', 'action' => 'index')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('List Places'), array('controller' => 'places', 'action' => 'index')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('List Properties'), array('controller' => 'properties', 'action' => 'index')); ?>
-		</li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?>
-		</li>
+		<?php $new=$navi['lists']; foreach ($new as $key=>$value) echo "<li>".$this->Html->link($key,$value)."</li>\n";	?>	
 	</ul>
 </div>

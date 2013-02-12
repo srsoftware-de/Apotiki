@@ -1,5 +1,5 @@
 <div class="actions"><?php echo $this->Html->link(__('Logout'),array('controller'=>'users','action'=>'logout'))?></div><div class="users view">
-<h2><?php  echo __('User'); ?></h2>
+<h2><?php  echo __('User').": ".$user['User']['name']; ?></h2>
 	<dl>
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
