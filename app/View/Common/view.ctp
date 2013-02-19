@@ -41,5 +41,7 @@
 		</li>
 		<li><?php if (!in_array('openids', $exclude)) echo $this->Html->link(__('List Openids'), array('controller' => 'openids', 'action' => 'index')); ?>
 		</li>
+		<li><?php echo $this->Html->link(__('All Labels'), array('controller' => 'items', 'action' => 'label')); ?>
+		</li>
 		</ul>
 </div>

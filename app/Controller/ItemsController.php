@@ -118,13 +118,26 @@ class ItemsController extends AppController {
 	}
 	
 	public function label($id=null){
-		if (!isset($id)){
-			throw new MethodNotAllowedException();
+		if (isset($id)){
+			$item=$this->Item->read(null,$id);
+			$dir='files/tmp';
+			$item['qrcodefile']=$dir.'/code_'.rand(0,1000000).'.png';
+			@mkdir($dir,0777,true);
+			$this->set('item',$item);
+		} else {
+			$this->Item->recursive=0;
+			$ids=$this->Item->find('all',array('fields'=>array('id')));
+			$items=array();
+			foreach ($ids as $item){
+				$id=$item['Item']['id'];
+				$item=$this->Item->read(null,$id);
+				$dir='files/tmp';
+				$item['qrcodefile']=$dir.'/code_'.rand(0,1000000).'.png';
+				@mkdir($dir,0777,true);
+				$items[]=$item;
+				$this->set('item',$items);
+			}		
+
 		}
-		$item=$this->Item->read(null,$id);
-		$dir='files/tmp';
-		$item['qrcodefile']=$dir.'/code_'.rand(0,1000000).'.png';
-		@mkdir($dir,0777,true);
-		$this->set('item',$item);
 	}
 }
