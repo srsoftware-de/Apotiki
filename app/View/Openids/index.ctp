@@ -1,3 +1,6 @@
+<?php $this->extend('/Common/view');	
+	$this->assign('exclude','openids');
+?>
 <div class="openids index">
 	<h2><?php echo __('Openids'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -35,12 +38,4 @@
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Openid'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-	</ul>
 </div>

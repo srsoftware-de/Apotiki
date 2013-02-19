@@ -1,4 +1,6 @@
-<div class="actions"><?php echo $this->Html->link('logout',array('controller'=>'users','action'=>'logout'))?></div>
+<?php $this->extend('/Common/view');	
+	$this->assign('exclude','attributes');
+?>
 <div class="attributes index">
 	<h2><?php echo __('Attributes'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -34,16 +36,4 @@
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Attribute'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Items'), array('controller' => 'items', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Item'), array('controller' => 'items', 'action' => 'add')); ?> </li>
-		
-				<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?>
-		</li>
-		
-	</ul>
 </div>

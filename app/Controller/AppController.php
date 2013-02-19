@@ -43,27 +43,6 @@ class AppController extends Controller {
 			)
 	);
 	
-	public function beforeFilter()	{
-		$navi = array(
-				'top'=>array(
-						__('Logout')=>array('controller'=>'users','action'=>'logout'),
-						__('Profile')=>array('controller'=>'users','action'=>'view')
-				),
-				'new'=>array(
-						__('New Item')=>array('controller' => 'items', 'action' => 'add'),
-						__('New Item Place')=>array('controller' => 'item_places', 'action' => 'add'),
-						__('New Property')=>array('controller' => 'properties', 'action' => 'add'),
-						__('New User')=>array('controller' => 'users', 'action' => 'add')
-				),
-				'lists'=>array(
-						__('List Items')=>array('controller' => 'items', 'action' => 'index'),
-						__('List Events')=>array('controller' => 'events', 'action' => 'index'),
-						__('List Places')=>array('controller' => 'places', 'action' => 'index'),
-						__('List Properties')=>array('controller' => 'properties', 'action' => 'index'),
-						__('List Users')=>array('controller' => 'users', 'action' => 'index')));
-		$this->set('navi', $navi);
-	}
-	
 	public function isAuthorized($user) {
 		// users are allowed...
 		if (isset($user['username'])){

@@ -1,3 +1,6 @@
+<?php $this->extend('/Common/view');	
+	$this->assign('exclude','builtins');
+?>
 <div class="builtins form">
 <?php echo $this->Form->create('Builtin'); ?>
 	<fieldset>
@@ -10,14 +13,4 @@
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Builtin.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Builtin.id'))); ?></li>
-		<li><?php echo $this->Html->link(__('List Builtins'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Items'), array('controller' => 'items', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Item'), array('controller' => 'items', 'action' => 'add')); ?> </li>
-	</ul>
 </div>

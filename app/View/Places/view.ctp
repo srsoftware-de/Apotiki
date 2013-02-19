@@ -1,3 +1,6 @@
+<?php $this->extend('/Common/view');	
+	$this->assign('exclude','viewplace');
+?>
 <div class="places view">
 <h2><?php  echo __('Place'); ?></h2>
 	<dl>
@@ -86,10 +89,4 @@
 	<?php endforeach; ?>
 	</table>
 <?php endif; ?>
-
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Item'), array('controller' => 'items', 'action' => 'add')); ?> </li>
-		</ul>
-	</div>
 </div>

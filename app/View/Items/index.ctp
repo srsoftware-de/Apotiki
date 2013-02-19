@@ -1,6 +1,6 @@
-<div class="actions">
-	<?php $top=$navi['top']; foreach ($top as $key=>$value) echo $this->Html->link($key,$value)."&nbsp;"; ?>
-</div>
+<?php $this->extend('/Common/view');	
+	$this->assign('exclude','items');
+?>
 <div class="items index">
 	<h2>
 		<?php echo __('Items'); ?>
@@ -41,20 +41,4 @@
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 		?>
 	</div>
-</div>
-<div class="actions">
-	<h3>
-		<?php echo __('Actions'); ?>
-	</h3>
-	<ul>
-		<?php $new=$navi['new']; foreach ($new as $key=>$value) echo "<li>".$this->Html->link($key,$value)."</li>\n"; ?>	
-	</ul>
-</div>
-<div class="actions">
-	<h3>
-		<?php echo __('Lists'); ?>
-	</h3>
-	<ul>
-		<?php $new=$navi['lists']; foreach ($new as $key=>$value) echo "<li>".$this->Html->link($key,$value)."</li>\n";	?>	
-	</ul>
 </div>

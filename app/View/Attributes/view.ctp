@@ -1,4 +1,7 @@
-<div class="actions"><?php echo $this->Html->link('logout',array('controller'=>'users','action'=>'logout'))?></div>
+<?php $this->extend('/Common/view');	
+	$this->assign('exclude','viewattribute');
+?>
+
 <div class="attributes view">
 <h2><?php  echo __('Attribute'); ?></h2>
 	<dl>
@@ -13,17 +16,6 @@
 			&nbsp;
 		</dd>
 	</dl>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Attribute'), array('action' => 'edit', $attribute['Attribute']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Attribute'), array('action' => 'delete', $attribute['Attribute']['id']), null, __('Are you sure you want to delete # %s?', $attribute['Attribute']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Attributes'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Attribute'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Properties'), array('controller' => 'properties', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Property'), array('controller' => 'properties', 'action' => 'add')); ?> </li>
-	</ul>
 </div>
 <div class="related">
 	<h3><?php echo __('Related Properties'); ?></h3>
@@ -54,9 +46,4 @@
 	</table>
 <?php endif; ?>
 
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Item'), array('controller' => 'items', 'action' => 'add')); ?> </li>
-		</ul>
-	</div>
 </div>
