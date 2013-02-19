@@ -148,6 +148,7 @@
 			<tr>
 				<th><?php echo __('Id'); ?></th>
 				<th><?php echo __('Description'); ?></th>
+				<th><?php echo __('Date'); ?></th>
 				<th><?php echo __('User'); ?></th>
 			</tr>
 			<?php
@@ -156,6 +157,7 @@
 			<tr>
 				<td><?php echo $event['id']; ?></td>
 				<td><?php echo $event['description']; ?></td>
+				<td><?php echo $event['created']; ?></td>
 				<td><?php echo $this->Html->link($event['User']['name'],array('controller'=>'users','action'=>'view',$event['User']['id'])); ?>
 				</td>
 			</tr>
