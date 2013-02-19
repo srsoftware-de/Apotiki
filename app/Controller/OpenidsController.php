@@ -45,7 +45,7 @@ class OpenidsController extends AppController {
 				$this->Session->setFlash(__('This openid is already assigned to a user!'));
 				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->request->data['Openid']['identity']=$this->request->data['Openid']['openid'];
+				$this->request->data['Openid']['identity']=$identity;
 				$this->Openid->create();
 				if ($this->Openid->save($this->request->data)) {
 					$this->Session->setFlash(__('The openid has been saved'));
