@@ -39,12 +39,20 @@ class OpenidsController extends AppController {
  */
 	public function add() {
 		if ($this->request->is('post')) {
-			$this->Openid->create();
-			if ($this->Openid->save($this->request->data)) {
-				$this->Session->setFlash(__('The openid has been saved'));
-				$this->redirect(array('action' => 'index'));
+			$identity=rtrim($this->request->data['Openid']['openid'],"/");
+			$count=$this->Openid->find('count',array('conditions'=>array('identity'=>$identity)));
+			if ($count>0){
+				$this->Session->setFlash(__('This openid is already assigned to a user!'));
+				$this->redirect(array('action'=>'index'));
 			} else {
-				$this->Session->setFlash(__('The openid could not be saved. Please, try again.'));
+				$this->request->data['Openid']['identity']=$this->request->data['Openid']['openid'];
+				$this->Openid->create();
+				if ($this->Openid->save($this->request->data)) {
+					$this->Session->setFlash(__('The openid has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The openid could not be saved. Please, try again.'));
+				}
 			}
 		}
 		$users = $this->Openid->User->find('list');

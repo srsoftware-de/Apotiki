@@ -154,7 +154,7 @@ class UsersController extends AppController {
             } elseif ($response->status == Auth_OpenID_FAILURE) {
                 $this->set('error', 'OpenID verification failed: '.$response->message);
             } elseif ($response->status == Auth_OpenID_SUCCESS) {
-            	$identity=$response->endpoint->claimed_id;
+            	$identity=rtrim($response->endpoint->claimed_id,"/");
             	print($identity);
             	$identity=$this->User->Openid->read(null,$identity);
             	if (isset($identity['User'])){

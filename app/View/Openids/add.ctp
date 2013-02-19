@@ -3,6 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Add Openid'); ?></legend>
 	<?php
+		echo $this->Form->input('openid');
 		echo $this->Form->input('user_id');
 	?>
 	</fieldset>
