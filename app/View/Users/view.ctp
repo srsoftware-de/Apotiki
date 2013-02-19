@@ -22,7 +22,35 @@
 			&nbsp;
 		</dd>
 	</dl>
-	<div class="related">
+<div class="related">
+	<h3><?php echo __('Openids'); ?></h3>
+	<?php if (!empty($user['Openid'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Identity'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($user['Openid'] as $openid): ?>
+		<tr>
+			<td><?php echo $openid['identity']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'openids', 'action' => 'edit', $openid['identity'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'openids', 'action' => 'delete', $openid['identity']), null, __('Are you sure you want to delete # %s?', $openid['identity'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Openid'), array('controller' => 'openids', 'action' => 'add',$user['User']['id'])); ?> </li>
+		</ul>
+	</div>
+</div>
+<div class="related">
 	<h3><?php echo __('Related Events'); ?></h3>
 	<?php if (!empty($user['Event'])): ?>
 	<table cellpadding = "0" cellspacing = "0">
@@ -50,11 +78,11 @@
 <?php endif; ?>
 </div>
 </div>
-<div class="actions">
+	<div class="actions">
 	<h3>
 		<?php echo __('Actions'); ?>
 	</h3>
-	<ul>
+		<ul>
 		<li><?php echo $this->Html->link(__('New Item'), array('controller' => 'items', 'action' => 'add')); ?>
 		</li>
 		<li><?php echo $this->Html->link(__('New Item Place'), array('controller' => 'item_places', 'action' => 'add')); ?>
@@ -63,8 +91,8 @@
 		</li>
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?>
 		</li>
-	</ul>
-</div>
+		</ul>
+	</div>
 <div class="actions">
 	<h3>
 		<?php echo __('Lists'); ?>

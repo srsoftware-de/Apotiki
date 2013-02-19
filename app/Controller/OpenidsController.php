@@ -37,7 +37,7 @@ class OpenidsController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($userid=null) {
 		if ($this->request->is('post')) {
 			$identity=rtrim($this->request->data['Openid']['openid'],"/");
 			$count=$this->Openid->find('count',array('conditions'=>array('identity'=>$identity)));
@@ -55,7 +55,9 @@ class OpenidsController extends AppController {
 				}
 			}
 		}
-		$users = $this->Openid->User->find('list');
+		if ($userid){
+			$users = $this->Openid->User->find('list',array('conditions'=>array('User.id'=>$userid)));
+		} else $users = $this->Openid->User->find('list');
 		$this->set(compact('users'));
 	}
 

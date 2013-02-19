@@ -19,7 +19,9 @@ class UsersControllerTest extends ControllerTestCase {
 		'app.item_place',
 		'app.place',
 		'app.property',
-		'app.attribute'
+		'app.attribute',
+		'app.upload',
+		'app.openid'
 	);
 
 /**
