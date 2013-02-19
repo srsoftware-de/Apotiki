@@ -1,6 +1,6 @@
 <?php
 
-$currentVersion = 1;
+$currentVersion = 2;
 
 function form(){
 	echo "Welcome to the Inventary Software Setup! Please enter credentials here:\n";
@@ -41,6 +41,9 @@ function upgrade(){
 		switch ($step){
 			case 1:
 				mysql_query("CREATE TABLE openids (identity VARCHAR(150) NOT NULL PRIMARY KEY, user_id INT NOT NULL)");				
+				break;
+			case 2:
+				mysql_query("ALTER TABLE events ADD created DATETIME DEFAULT NULL");
 				break;
 		}
 	}
