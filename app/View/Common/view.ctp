@@ -16,6 +16,8 @@
 		</li>
 		<li><?php if (!in_array('additemplace', $exclude)) echo $this->Html->link(__('New Item Place'), array('controller' => 'item_places', 'action' => 'add')); ?>
 		</li>
+		<li><?php if (!in_array('place', $exclude)) echo $this->Html->link(__('New Place'), array('controller' => 'places', 'action' => 'add')); ?>
+		</li>
 		<li><?php if (!in_array('addproperty', $exclude)) echo $this->Html->link(__('New Property'), array('controller' => 'properties', 'action' => 'add')); ?>
 		</li>
 		<li><?php if (in_array('addproperty', $exclude)) echo $this->Html->link(__('New Attribute'), array('controller' => 'attributes', 'action' => 'add')); ?>
