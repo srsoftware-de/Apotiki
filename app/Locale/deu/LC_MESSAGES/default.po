@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-02-12 17:22+0100\n"
+"POT-Creation-Date: 2013-09-30 23:32+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,1248 +14,916 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/AttributesController.php:30;62;90
+#: /Controller/AttributesController.php:30;62;90
 msgid "Invalid attribute"
 msgstr "Ungültiges Attribut"
 
-#: Controller/AttributesController.php:44;66
+#: /Controller/AttributesController.php:44;66
 msgid "The attribute has been saved"
 msgstr "Das Attribut wurde gespeichert"
 
-#: Controller/AttributesController.php:47;69
+#: /Controller/AttributesController.php:47;69
 msgid "The attribute could not be saved. Please, try again."
 msgstr "Das Attribut konnte nicht gespeichert werden, bitte nochmal versuchen."
 
-#: Controller/AttributesController.php:93
+#: /Controller/AttributesController.php:93
 msgid "Attribute deleted"
 msgstr "Attribut entfernt"
 
-#: Controller/AttributesController.php:96
+#: /Controller/AttributesController.php:96
 msgid "Attribute was not deleted"
 msgstr "Attribut konnte nicht entfernt werden"
 
-#: Controller/BuiltinsController.php:30;92;123
+#: /Controller/BuiltinsController.php:30;92;123
 msgid "Invalid builtin"
 msgstr "Ungültiger Einbau"
 
-#: Controller/BuiltinsController.php:56
+#: /Controller/BuiltinsController.php:56
 msgid "Built into"
 msgstr "Verbaut in"
 
-#: Controller/BuiltinsController.php:60;96
+#: /Controller/BuiltinsController.php:60;96
 msgid "The builtin has been saved"
 msgstr "Der Einbau wurde gespeichert"
 
-#: Controller/BuiltinsController.php:63;99
+#: /Controller/BuiltinsController.php:63;99
 msgid "The builtin could not be saved. Please, try again."
 msgstr "Der Einbau konnte nicht gespeichert werden. Bitte versuchen Sie es nochmal."
 
-#: Controller/BuiltinsController.php:126
+#: /Controller/BuiltinsController.php:126
 msgid "Builtin deleted"
 msgstr "Verbaut-In-Eintrag wurde gelöscht."
 
-#: Controller/BuiltinsController.php:129
+#: /Controller/BuiltinsController.php:129
 msgid "Builtin was not deleted"
 msgstr "Verbaut-In-Eintrag wurde nicht gelöscht."
 
-#: Controller/EventsController.php:34;74;105
+#: /Controller/EventsController.php:34;74;105
 msgid "Invalid event"
 msgstr "Ungültiges Ereignis"
 
-#: Controller/EventsController.php:51;78
+#: /Controller/EventsController.php:51;78
 msgid "The event has been saved"
 msgstr "Das Ereignis wurde gespeichert"
 
-#: Controller/EventsController.php:56;81
+#: /Controller/EventsController.php:56;81
 msgid "The event could not be saved. Please, try again."
 msgstr "Das Ereignis konnte nicht gespeichert werden. Bitte nochmal versuchen."
 
-#: Controller/EventsController.php:108
+#: /Controller/EventsController.php:108
 msgid "Event deleted"
 msgstr "Ereignis gelöscht"
 
-#: Controller/EventsController.php:111
+#: /Controller/EventsController.php:111
 msgid "Event was not deleted"
 msgstr "Ereignis konnte nicht gelöscht werden"
 
-#: Controller/ItemPlacesController.php:30;110;180
+#: /Controller/ItemPlacesController.php:30;110;180
 msgid "Invalid item place"
 msgstr "Ungültiger Ort für Objekt"
 
-#: Controller/ItemPlacesController.php:45
+#: /Controller/ItemPlacesController.php:45
 msgid "No location holds as many items, as you want to build in! Select less items to build in!"
-msgstr "An keinem Lagerot befinden sich so viele Objekte, wie Sie verbauen wollen. Wählen Sie weniger zu verbauende Objekte!"
+msgstr "An keinem Lagerort befinden sich so viele Objekte, wie Sie verbauen wollen. Wählen Sie weniger zu verbauende Objekte!"
 
-#: Controller/ItemPlacesController.php:63
-#: Controller/ItemsController.php:50
+#: /Controller/ItemPlacesController.php:63
+#: /Controller/ItemsController.php:50
 msgid "Please create a place first!"
 msgstr "Bitte legen Sie zuerst einen Ort an!"
 
-#: Controller/ItemPlacesController.php:81
+#: /Controller/ItemPlacesController.php:81
 msgid "The item place has been saved"
 msgstr "Der Ort des Objektes wurde gespeichert"
 
-#: Controller/ItemPlacesController.php:85
+#: /Controller/ItemPlacesController.php:85
 msgid "Moved to"
 msgstr "verlagert nach"
 
-#: Controller/ItemPlacesController.php:89
+#: /Controller/ItemPlacesController.php:89
 msgid "The item place could not be saved. Please, try again."
 msgstr "Der Ort des Objektes konnte nicht gespeichert werden, bitte nochmal versuchen."
 
-#: Controller/ItemPlacesController.php:123
+#: /Controller/ItemPlacesController.php:123
 msgid "You try to move more objects than available"
 msgstr "Sie versuchen mehr Objekte zu verschieben, als vorhanden sind!"
 
-#: Controller/ItemPlacesController.php:145;148
+#: /Controller/ItemPlacesController.php:145;148
 msgid "Moved "
 msgstr "Verschoben: "
 
-#: Controller/ItemPlacesController.php:184
+#: /Controller/ItemPlacesController.php:184
 msgid "Item place deleted"
 msgstr "Ort des Objektes gelöscht"
 
-#: Controller/ItemPlacesController.php:185
+#: /Controller/ItemPlacesController.php:185
 msgid "Item place was not deleted"
 msgstr "Ort des Objektes konnte nicht gelöscht werden"
 
-#: Controller/ItemsController.php:37;76;104
+#: /Controller/ItemsController.php:37;76;104
 msgid "Invalid item"
 msgstr "Ungültiges Objekt"
 
-#: Controller/ItemsController.php:57
+#: /Controller/ItemsController.php:57
 msgid "Created Object"
 msgstr "Objekt angelegt"
 
-#: Controller/ItemsController.php:58;80
+#: /Controller/ItemsController.php:58;80
 msgid "The item has been saved"
 msgstr "Objekt wurde gespeichert"
 
-#: Controller/ItemsController.php:61;83
+#: /Controller/ItemsController.php:61;83
 msgid "The item could not be saved. Please, try again."
 msgstr "Das Objekt konnte nicht gepsiechert werden, bitte nochmal versuchen"
 
-#: Controller/ItemsController.php:111
+#: /Controller/ItemsController.php:111
 msgid "Deleted Object"
 msgstr "Objekt entfernt"
 
-#: Controller/ItemsController.php:113
+#: /Controller/ItemsController.php:113
 msgid "Item deleted"
 msgstr "Objekt entfernt"
 
-#: Controller/ItemsController.php:116
+#: /Controller/ItemsController.php:116
 msgid "Item was not deleted"
 msgstr "Objekt konnte nicht gelöscht werden"
 
-#: Controller/OpenidsController.php:30;64;94
+#: /Controller/OpenidsController.php:30;74;104
 msgid "Invalid openid"
 msgstr "ungültige OpenID"
 
-#: Controller/OpenidsController.php:44;68
+#: /Controller/OpenidsController.php:45
+msgid "This openid is already assigned to a user!"
+msgstr "Diese OpenID ist bereits einem Benutzer zugeordnet"
+
+#: /Controller/OpenidsController.php:51;78
 msgid "The openid has been saved"
 msgstr "die OpenID wurde gespeichert"
 
-#: Controller/OpenidsController.php:47;71
+#: /Controller/OpenidsController.php:54;81
 msgid "The openid could not be saved. Please, try again."
 msgstr "Die OpenID konnte nicht gespeichert werden, bitte nochmal versuchen"
 
-#: Controller/OpenidsController.php:97
+#: /Controller/OpenidsController.php:107
 msgid "Openid deleted"
 msgstr "OpenID gelöscht"
 
-#: Controller/OpenidsController.php:100
+#: /Controller/OpenidsController.php:110
 msgid "Openid was not deleted"
 msgstr "OpenID konnte nicht gelöscht werden"
 
-#: Controller/PlacesController.php:30;65;96
+#: /Controller/PlacesController.php:30;65;96
 msgid "Invalid place"
 msgstr "Ungültiger Ort"
 
-#: Controller/PlacesController.php:44;69
+#: /Controller/PlacesController.php:44;69
 msgid "The place has been saved"
 msgstr "Der Ort wurde gespeichert"
 
-#: Controller/PlacesController.php:47;72
+#: /Controller/PlacesController.php:47;72
 msgid "The place could not be saved. Please, try again."
 msgstr "Der Ort konnte nicht gespeichert werden. Bitte nochmal versuchen."
 
-#: Controller/PlacesController.php:51
+#: /Controller/PlacesController.php:51
 msgid "no outer location"
 msgstr "kein umgebender Ort"
 
-#: Controller/PlacesController.php:99
+#: /Controller/PlacesController.php:99
 msgid "Place deleted"
 msgstr "Ort entfernt"
 
-#: Controller/PlacesController.php:102
+#: /Controller/PlacesController.php:102
 msgid "Place was not deleted"
 msgstr "Ort konnte nicht entfernt werden"
 
-#: Controller/PropertiesController.php:31;79;110
+#: /Controller/PropertiesController.php:31;79;110
 msgid "Invalid property"
 msgstr "Ungültige Eingenschaft"
 
-#: Controller/PropertiesController.php:43
+#: /Controller/PropertiesController.php:43
 msgid "Please create an attribute first!"
 msgstr "Bitte erzeugen Sie zunächst ein Attribut"
 
-#: Controller/PropertiesController.php:53
+#: /Controller/PropertiesController.php:53
 msgid "Added Property"
 msgstr "Eigenschaft erzeugt"
 
-#: Controller/PropertiesController.php:54;83
+#: /Controller/PropertiesController.php:54;83
 msgid "The property has been saved"
 msgstr "Die Eigenschaft wurde gespeichert."
 
-#: Controller/PropertiesController.php:59;86
+#: /Controller/PropertiesController.php:59;86
 msgid "The property could not be saved. Please, try again."
 msgstr "Die Eigenschaft konnte nicht gespeichert werden, bitte nochmals versuchen."
 
-#: Controller/PropertiesController.php:117
+#: /Controller/PropertiesController.php:117
 msgid "Deleted Property"
 msgstr "Eigenschaft entfernt"
 
-#: Controller/PropertiesController.php:119
+#: /Controller/PropertiesController.php:119
 msgid "Property deleted"
 msgstr "Eigenschaft entfernt"
 
-#: Controller/PropertiesController.php:122
+#: /Controller/PropertiesController.php:122
 msgid "Property was not deleted"
 msgstr "Eigenschaft konnte nicht entfernt werden"
 
-#: Controller/UploadsController.php:30;83;113;133
+#: /Controller/UploadsController.php:30;83;113;133
 msgid "Invalid upload"
 msgstr "Ungültiger Upload"
 
-#: Controller/UploadsController.php:60
+#: /Controller/UploadsController.php:60
 msgid "Uploded"
 msgstr "Hochgeladen"
 
-#: Controller/UploadsController.php:61;87
+#: /Controller/UploadsController.php:61;87
 msgid "The upload has been saved"
 msgstr "Die Datei wurde gespeichert"
 
-#: Controller/UploadsController.php:64;90
+#: /Controller/UploadsController.php:64;90
 msgid "The upload could not be saved. Please, try again."
 msgstr "Der Upload ist fehlgeschlagen, bitte nochmal verscuhen."
 
-#: Controller/UploadsController.php:122
+#: /Controller/UploadsController.php:122
 msgid "Deleted"
 msgstr "Entfernt"
 
-#: Controller/UploadsController.php:123
+#: /Controller/UploadsController.php:123
 msgid "Upload deleted"
 msgstr "Upload gelöscht"
 
-#: Controller/UploadsController.php:126
+#: /Controller/UploadsController.php:126
 msgid "Upload was not deleted"
 msgstr "Upload konnte nicht gelöscht werden"
 
-#: Controller/UsersController.php:19
+#: /Controller/UsersController.php:19
 msgid "Please add a first user!"
 msgstr "Bitte legen Sie einen ersten Nutzer an!"
 
-#: Controller/UsersController.php:63;87
+#: /Controller/UsersController.php:63;87
 msgid "The user has been saved"
 msgstr "Der Benutzer wurde gespeichert"
 
-#: Controller/UsersController.php:66;90
+#: /Controller/UsersController.php:66;90
 msgid "The user could not be saved. Please, try again."
 msgstr "Der Benutzer konnte nicht gespeichert werden. Bitte nochmal versuchen."
 
-#: Controller/UsersController.php:83;113
+#: /Controller/UsersController.php:83;113
 msgid "Invalid user"
 msgstr "Ungültiger Benutzer"
 
-#: Controller/UsersController.php:116
+#: /Controller/UsersController.php:116
 msgid "User deleted"
 msgstr "Benutzer entfernt"
 
-#: Controller/UsersController.php:119
+#: /Controller/UsersController.php:119
 msgid "User was not deleted"
 msgstr "Benutzer konnte nicht gelöscht werden"
 
-#: Controller/UsersController.php:132
+#: /Controller/UsersController.php:132
 msgid "Invalid username or password, try again"
 msgstr "Ungülige NUtzername-Passwort-Kombination. Bitte nochmal versuchen."
 
-#: Controller/Component/OpenidComponent.php:300
+#: /Controller/Component/OpenidComponent.php:300
 msgid "OpenID Authentication Redirect"
 msgstr "Weiterleitung zur OpenID-Authentifizierung"
 
-#: View/Attributes/add.ctp:2
-#: View/Events/add.ctp:2
-#: View/Events/edit.ctp:2
-#: View/Events/index.ctp:2
-#: View/Events/view.ctp:2
-#: View/ItemPlaces/add.ctp:2
-#: View/ItemPlaces/index.ctp:2
-#: View/ItemPlaces/select.ctp:2
-#: View/Items/add.ctp:2
-#: View/Items/edit.ctp:2
-#: View/Items/index.ctp:3
-#: View/Items/view.ctp:2
-#: View/Places/add.ctp:2
-#: View/Places/index.ctp:2
-#: View/Properties/add.ctp:1
-#: View/Properties/index.ctp:2
-#: View/Uploads/add.ctp:2
-#: View/Uploads/index.ctp:2
-#: View/Uploads/view.ctp:2
-#: View/Users/index.ctp:2
-#: View/Users/view.ctp:1
-msgid "Logout"
-msgstr "Ausloggen"
-
-#: View/Attributes/add.ctp:8
+#: /View/Attributes/add.ctp:8
 msgid "Add Attribute"
 msgstr "Attribut hinzufügen"
 
-#: View/Attributes/add.ctp:14
-#: View/Attributes/edit.ctp:11
-#: View/Builtins/add.ctp:13
-#: View/Builtins/edit.ctp:12
-#: View/Events/add.ctp:14
-#: View/Events/edit.ctp:15
-#: View/ItemPlaces/add.ctp:14
-#: View/ItemPlaces/move.ctp:12
-#: View/ItemPlaces/select.ctp:12
-#: View/Items/add.ctp:12
-#: View/Items/edit.ctp:14
-#: View/Openids/add.ctp:9
-#: View/Openids/edit.ctp:10
-#: View/Places/add.ctp:14
-#: View/Places/edit.ctp:12
-#: View/Properties/add.ctp:15
-#: View/Properties/edit.ctp:12
-#: View/Uploads/add.ctp:13
-#: View/Users/add.ctp:13
-#: View/Users/edit.ctp:16
+#: /View/Attributes/add.ctp:14
+#: /View/Attributes/edit.ctp:13
+#: /View/Builtins/add.ctp:16
+#: /View/Builtins/edit.ctp:15
+#: /View/Events/add.ctp:14
+#: /View/Events/edit.ctp:15
+#: /View/ItemPlaces/add.ctp:14
+#: /View/ItemPlaces/move.ctp:14
+#: /View/ItemPlaces/select.ctp:12
+#: /View/Items/add.ctp:12
+#: /View/Items/edit.ctp:14
+#: /View/Openids/add.ctp:13
+#: /View/Openids/edit.ctp:13
+#: /View/Places/add.ctp:14
+#: /View/Places/edit.ctp:15
+#: /View/Properties/add.ctp:17
+#: /View/Properties/edit.ctp:15
+#: /View/Uploads/add.ctp:13
+#: /View/Users/add.ctp:15
+#: /View/Users/edit.ctp:16
 msgid "Submit"
 msgstr "Absenden"
 
-#: View/Attributes/add.ctp:18
-#: View/Attributes/edit.ctp:14
-#: View/Attributes/index.ctp:8;39
-#: View/Attributes/view.ctp:18;37
-#: View/Builtins/add.ctp:17
-#: View/Builtins/edit.ctp:15
-#: View/Builtins/index.ctp:9;46
-#: View/Builtins/view.ctp:27
-#: View/Events/add.ctp:18
-#: View/Events/edit.ctp:19
-#: View/Events/index.ctp:15;52
-#: View/Events/view.ctp:38
-#: View/ItemPlaces/add.ctp:18
-#: View/ItemPlaces/index.ctp:15;51
-#: View/ItemPlaces/move.ctp:15
-#: View/ItemPlaces/select.ctp:16
-#: View/ItemPlaces/view.ctp:24
-#: View/Items/add.ctp:16
-#: View/Items/edit.ctp:18
-#: View/Items/index.ctp:14;48
-#: View/Items/view.ctp:49;83;117;176
-#: View/Openids/add.ctp:12
-#: View/Openids/edit.ctp:13
-#: View/Openids/index.ctp:7;40
-#: View/Openids/view.ctp:17
-#: View/Places/add.ctp:18
-#: View/Places/edit.ctp:15
-#: View/Places/index.ctp:11;46
-#: View/Places/view.ctp:22;40;73
-#: View/Properties/add.ctp:19
-#: View/Properties/edit.ctp:15
-#: View/Properties/index.ctp:14;50
-#: View/Properties/view.ctp:27
-#: View/Uploads/add.ctp:17
-#: View/Uploads/index.ctp:13;50
-#: View/Uploads/view.ctp:36
-#: View/Users/add.ctp:16
-#: View/Users/edit.ctp:19
-#: View/Users/index.ctp:14;48
-#: View/Users/view.ctp:33;55
-msgid "Actions"
-msgstr "Aktionen"
-
-#: View/Attributes/add.ctp:21
-#: View/Attributes/edit.ctp:20
-#: View/Attributes/index.ctp:43
-#: View/Attributes/view.ctp:59
-#: View/Builtins/add.ctp:25
-#: View/Builtins/edit.ctp:21
-#: View/Builtins/index.ctp:50
-#: View/Builtins/view.ctp:34
-#: View/Events/add.ctp:21
-#: View/Events/edit.ctp:22
-#: View/Events/index.ctp:55
-#: View/Events/view.ctp:41
-#: View/ItemPlaces/add.ctp:21
-#: View/ItemPlaces/index.ctp:54
-#: View/ItemPlaces/move.ctp:23
-#: View/ItemPlaces/select.ctp:19
-#: View/ItemPlaces/view.ctp:33
-#: View/Items/add.ctp:19
-#: View/Items/edit.ctp:21
-#: View/Items/index.ctp:51
-#: View/Items/view.ctp:179
-#: View/Places/add.ctp:21
-#: View/Places/edit.ctp:21
-#: View/Places/index.ctp:49
-#: View/Places/view.ctp:29;92
-#: View/Properties/add.ctp:22
-#: View/Properties/edit.ctp:23
-#: View/Properties/index.ctp:53
-#: View/Properties/view.ctp:36
-#: View/Uploads/add.ctp:20
-#: View/Uploads/index.ctp:53
-#: View/Uploads/view.ctp:39
-#: View/Users/index.ctp:51
-#: View/Users/view.ctp:58
-msgid "New Item"
-msgstr "Neues Objekt"
-
-#: View/Attributes/add.ctp:23
-#: View/ItemPlaces/add.ctp:23
-#: View/ItemPlaces/move.ctp:21
-#: View/ItemPlaces/select.ctp:21
-#: View/ItemPlaces/view.ctp:31
-#: View/Items/add.ctp:21
-#: View/Items/index.ctp:53
-#: View/Items/view.ctp:181
-#: View/Places/index.ctp:51
-#: View/Places/view.ctp:27
-#: View/Uploads/add.ctp:22
-#: View/Uploads/index.ctp:55
-#: View/Uploads/view.ctp:41
-msgid "New Place"
-msgstr "Neuer Ort"
-
-#: View/Attributes/add.ctp:25
-#: View/Attributes/view.ctp:25
-#: View/Events/add.ctp:25
-#: View/Events/edit.ctp:26
-#: View/Events/index.ctp:59
-#: View/Events/view.ctp:45
-#: View/ItemPlaces/add.ctp:25
-#: View/ItemPlaces/index.ctp:58
-#: View/ItemPlaces/select.ctp:23
-#: View/Items/add.ctp:23
-#: View/Items/edit.ctp:25
-#: View/Items/index.ctp:55
-#: View/Items/view.ctp:69;183
-#: View/Places/add.ctp:25
-#: View/Places/index.ctp:53
-#: View/Properties/index.ctp:59
-#: View/Properties/view.ctp:32
-#: View/Uploads/add.ctp:24
-#: View/Uploads/index.ctp:57
-#: View/Uploads/view.ctp:43
-#: View/Users/index.ctp:55
-#: View/Users/view.ctp:62
-msgid "New Property"
-msgstr "Neue Eigenschaft"
-
-#: View/Attributes/add.ctp:27
-#: View/Attributes/edit.ctp:21
-#: View/Attributes/index.ctp:45
-#: View/Events/add.ctp:27
-#: View/Events/edit.ctp:28
-#: View/Events/index.ctp:61
-#: View/Events/view.ctp:47
-#: View/ItemPlaces/add.ctp:27
-#: View/ItemPlaces/index.ctp:60
-#: View/ItemPlaces/select.ctp:25
-#: View/Items/add.ctp:25
-#: View/Items/edit.ctp:27
-#: View/Items/index.ctp:57
-#: View/Items/view.ctp:187
-#: View/Openids/add.ctp:17
-#: View/Openids/edit.ctp:19
-#: View/Openids/index.ctp:44
-#: View/Openids/view.ctp:24
-#: View/Places/add.ctp:27
-#: View/Places/edit.ctp:22
-#: View/Places/index.ctp:55
-#: View/Uploads/add.ctp:26
-#: View/Uploads/index.ctp:59
-#: View/Uploads/view.ctp:45
-#: View/Users/add.ctp:22
-#: View/Users/edit.ctp:28
-#: View/Users/index.ctp:57
-#: View/Users/view.ctp:64
-msgid "New User"
-msgstr "Neuer Benutzer"
-
-#: View/Attributes/add.ctp:34
-#: View/Events/add.ctp:33
-#: View/Events/edit.ctp:34
-#: View/Events/index.ctp:67
-#: View/Events/view.ctp:53
-#: View/ItemPlaces/add.ctp:33
-#: View/ItemPlaces/index.ctp:66
-#: View/ItemPlaces/select.ctp:31
-#: View/Items/add.ctp:31
-#: View/Items/edit.ctp:33
-#: View/Items/index.ctp:63
-#: View/Items/view.ctp:193
-#: View/Places/add.ctp:33
-#: View/Places/index.ctp:62
-#: View/Properties/add.ctp:32
-#: View/Properties/index.ctp:65
-#: View/Uploads/add.ctp:32
-#: View/Uploads/index.ctp:65
-#: View/Uploads/view.ctp:51
-#: View/Users/index.ctp:63
-#: View/Users/view.ctp:70
-msgid "Lists"
-msgstr "Listen"
-
-#: View/Attributes/add.ctp:37
-#: View/Attributes/edit.ctp:19
-#: View/Attributes/index.ctp:42
-#: View/Builtins/add.ctp:23
-#: View/Builtins/edit.ctp:20
-#: View/Builtins/index.ctp:49
-#: View/Builtins/view.ctp:33
-#: View/Events/add.ctp:36
-#: View/Events/edit.ctp:37
-#: View/Events/index.ctp:70
-#: View/Events/view.ctp:56
-#: View/ItemPlaces/add.ctp:36
-#: View/ItemPlaces/index.ctp:69
-#: View/ItemPlaces/move.ctp:22
-#: View/ItemPlaces/select.ctp:34
-#: View/ItemPlaces/view.ctp:32
-#: View/Items/add.ctp:34
-#: View/Items/edit.ctp:36
-#: View/Items/index.ctp:66
-#: View/Items/view.ctp:196
-#: View/Places/add.ctp:36
-#: View/Places/edit.ctp:20
-#: View/Places/index.ctp:65
-#: View/Places/view.ctp:28
-#: View/Properties/add.ctp:35
-#: View/Properties/edit.ctp:22
-#: View/Properties/index.ctp:68
-#: View/Properties/view.ctp:35
-#: View/Uploads/add.ctp:35
-#: View/Uploads/index.ctp:68
-#: View/Uploads/view.ctp:54
-#: View/Users/add.ctp:21
-#: View/Users/index.ctp:66
-#: View/Users/view.ctp:73
-msgid "List Items"
-msgstr "Objekte auflisten"
-
-#: View/Attributes/add.ctp:39
-#: View/Events/add.ctp:38
-#: View/Events/edit.ctp:39
-#: View/Events/index.ctp:72
-#: View/Events/view.ctp:58
-#: View/ItemPlaces/add.ctp:38
-#: View/ItemPlaces/index.ctp:71
-#: View/ItemPlaces/select.ctp:36
-#: View/Items/add.ctp:36
-#: View/Items/edit.ctp:38
-#: View/Items/index.ctp:68
-#: View/Items/view.ctp:198
-#: View/Places/add.ctp:38
-#: View/Places/index.ctp:67
-#: View/Properties/add.ctp:37
-#: View/Properties/index.ctp:70
-#: View/Uploads/add.ctp:37
-#: View/Uploads/index.ctp:70
-#: View/Uploads/view.ctp:56
-#: View/Users/add.ctp:20
-#: View/Users/edit.ctp:26
-#: View/Users/index.ctp:68
-#: View/Users/view.ctp:75
-msgid "List Events"
-msgstr "Ereignisse auflisten"
-
-#: View/Attributes/add.ctp:41
-#: View/Events/add.ctp:40
-#: View/Events/edit.ctp:41
-#: View/Events/index.ctp:74
-#: View/Events/view.ctp:60
-#: View/ItemPlaces/add.ctp:40
-#: View/ItemPlaces/index.ctp:73
-#: View/ItemPlaces/move.ctp:20
-#: View/ItemPlaces/select.ctp:38
-#: View/ItemPlaces/view.ctp:30
-#: View/Items/add.ctp:38
-#: View/Items/edit.ctp:40
-#: View/Items/index.ctp:70
-#: View/Items/view.ctp:200
-#: View/Places/add.ctp:40
-#: View/Places/edit.ctp:19
-#: View/Places/view.ctp:26
-#: View/Properties/add.ctp:39
-#: View/Properties/index.ctp:72
-#: View/Uploads/add.ctp:39
-#: View/Uploads/index.ctp:72
-#: View/Uploads/view.ctp:58
-#: View/Users/index.ctp:70
-#: View/Users/view.ctp:77
-msgid "List Places"
-msgstr "Orte auflisten"
-
-#: View/Attributes/add.ctp:43
-#: View/Attributes/view.ctp:24
-#: View/Events/add.ctp:42
-#: View/Events/edit.ctp:43
-#: View/Events/index.ctp:76
-#: View/Events/view.ctp:62
-#: View/ItemPlaces/add.ctp:42
-#: View/ItemPlaces/index.ctp:75
-#: View/ItemPlaces/select.ctp:40
-#: View/Items/add.ctp:40
-#: View/Items/edit.ctp:42
-#: View/Items/index.ctp:72
-#: View/Items/view.ctp:202
-#: View/Places/add.ctp:42
-#: View/Places/index.ctp:69
-#: View/Properties/add.ctp:41
-#: View/Properties/edit.ctp:19
-#: View/Properties/view.ctp:31
-#: View/Uploads/add.ctp:41
-#: View/Uploads/index.ctp:74
-#: View/Uploads/view.ctp:60
-#: View/Users/index.ctp:72
-#: View/Users/view.ctp:79
-msgid "List Properties"
-msgstr "Eigenschaften auflisten"
-
-#: View/Attributes/add.ctp:45
-#: View/Events/add.ctp:44
-#: View/Events/edit.ctp:45
-#: View/Events/index.ctp:78
-#: View/Events/view.ctp:64
-#: View/ItemPlaces/add.ctp:44
-#: View/ItemPlaces/index.ctp:77
-#: View/ItemPlaces/select.ctp:42
-#: View/Items/add.ctp:42
-#: View/Items/edit.ctp:44
-#: View/Items/index.ctp:74
-#: View/Items/view.ctp:204
-#: View/Openids/add.ctp:16
-#: View/Openids/edit.ctp:18
-#: View/Openids/index.ctp:43
-#: View/Openids/view.ctp:23
-#: View/Places/add.ctp:44
-#: View/Places/index.ctp:71
-#: View/Properties/add.ctp:43
-#: View/Properties/index.ctp:74
-#: View/Uploads/add.ctp:43
-#: View/Uploads/index.ctp:76
-#: View/Uploads/view.ctp:62
-#: View/Users/add.ctp:19
-#: View/Users/edit.ctp:24
-#: View/Users/index.ctp:74
-#: View/Users/view.ctp:81
-msgid "List Users"
-msgstr "Benutzer auflisten"
-
-#: View/Attributes/edit.ctp:5
-#: View/Attributes/view.ctp:20
+#: /View/Attributes/edit.ctp:7
 msgid "Edit Attribute"
 msgstr "Attribut bearbeiten"
 
-#: View/Attributes/edit.ctp:17
-#: View/Attributes/index.ctp:18
-#: View/Attributes/view.ctp:50
-#: View/Builtins/edit.ctp:18
-#: View/Builtins/index.ctp:25
-#: View/Events/index.ctp:29
-#: View/ItemPlaces/index.ctp:28
-#: View/ItemPlaces/move.ctp:18
-#: View/Items/index.ctp:25
-#: View/Items/view.ctp:60;94;128
-#: View/Openids/edit.ctp:16
-#: View/Openids/index.ctp:19
-#: View/Places/edit.ctp:18
-#: View/Places/index.ctp:24
-#: View/Places/view.ctp:52;83
-#: View/Properties/edit.ctp:18
-#: View/Properties/index.ctp:27
-#: View/Uploads/index.ctp:28
-#: View/Users/edit.ctp:22
-#: View/Users/index.ctp:25
-#: View/Users/view.ctp:45
-msgid "Delete"
-msgstr "Entfernen"
-
-#: View/Attributes/edit.ctp:17
-#: View/Attributes/index.ctp:18
-#: View/Attributes/view.ctp:21;50
-#: View/Builtins/edit.ctp:18
-#: View/Builtins/index.ctp:25
-#: View/Builtins/view.ctp:30
-#: View/Events/index.ctp:29
-#: View/ItemPlaces/index.ctp:28
-#: View/ItemPlaces/move.ctp:18
-#: View/ItemPlaces/view.ctp:27
-#: View/Items/index.ctp:25
-#: View/Items/view.ctp:128
-#: View/Openids/edit.ctp:16
-#: View/Openids/index.ctp:19
-#: View/Openids/view.ctp:20
-#: View/Places/edit.ctp:18
-#: View/Places/index.ctp:24
-#: View/Places/view.ctp:25;52;83
-#: View/Properties/edit.ctp:18
-#: View/Properties/index.ctp:27
-#: View/Properties/view.ctp:30
-#: View/Uploads/index.ctp:28
-#: View/Users/edit.ctp:22
-#: View/Users/index.ctp:25
-#: View/Users/view.ctp:45
-msgid "Are you sure you want to delete # %s?"
-msgstr "Wollen Sie #%s wirklich löschen?"
-
-#: View/Attributes/edit.ctp:18
-#: View/Attributes/view.ctp:22
-#: View/Properties/edit.ctp:20
-#: View/Properties/view.ctp:33
-msgid "List Attributes"
-msgstr "Attribute auflisten"
-
-#: View/Attributes/index.ctp:3
+#: /View/Attributes/index.ctp:5
 msgid "Attributes"
 msgstr "Attribute"
 
-#: View/Attributes/index.ctp:16
-#: View/Attributes/view.ctp:48
-#: View/Builtins/index.ctp:23
-#: View/Events/index.ctp:27
-#: View/ItemPlaces/index.ctp:26
-#: View/Items/view.ctp:58;93
-#: View/Openids/index.ctp:17
-#: View/Places/index.ctp:22
-#: View/Places/view.ctp:50;81
-#: View/Properties/index.ctp:25
-#: View/Uploads/index.ctp:26
-#: View/Users/index.ctp:23
-#: View/Users/view.ctp:43
-msgid "View"
-msgstr "Zeigen"
+#: /View/Attributes/index.ctp:10
+#: /View/Attributes/view.ctp:29
+#: /View/Builtins/index.ctp:12
+#: /View/Common/view.ctp:12
+#: /View/Events/index.ctp:15
+#: /View/ItemPlaces/index.ctp:15
+#: /View/Items/index.ctp:13
+#: /View/Items/view.ctp:49;83;117
+#: /View/Openids/index.ctp:10
+#: /View/Places/index.ctp:11
+#: /View/Places/view.ctp:25;43;76
+#: /View/Properties/index.ctp:14
+#: /View/Uploads/add.ctp:17
+#: /View/Uploads/index.ctp:13;50
+#: /View/Uploads/view.ctp:36
+#: /View/Users/index.ctp:14
+#: /View/Users/view.ctp:34;64
+msgid "Actions"
+msgstr "Aktionen"
 
-#: View/Attributes/index.ctp:17
-#: View/Attributes/view.ctp:49
-#: View/Builtins/index.ctp:24
-#: View/Events/index.ctp:28
-#: View/ItemPlaces/index.ctp:27
-#: View/Items/index.ctp:24
-#: View/Items/view.ctp:59
-#: View/Openids/index.ctp:18
-#: View/Places/index.ctp:23
-#: View/Places/view.ctp:51;82
-#: View/Properties/index.ctp:26
-#: View/Uploads/index.ctp:27
-#: View/Users/index.ctp:24
-#: View/Users/view.ctp:44
+#: /View/Attributes/index.ctp:18
+#: /View/Attributes/view.ctp:40
+#: /View/Builtins/index.ctp:26
+#: /View/Events/index.ctp:27
+#: /View/ItemPlaces/index.ctp:26
+#: /View/Items/view.ctp:58;93
+#: /View/Openids/index.ctp:20
+#: /View/Places/index.ctp:22
+#: /View/Places/view.ctp:53;84
+#: /View/Properties/index.ctp:25
+#: /View/Uploads/index.ctp:26
+#: /View/Users/index.ctp:23
+#: /View/Users/view.ctp:74
+msgid "View"
+msgstr "Ansehen"
+
+#: /View/Attributes/index.ctp:19
+#: /View/Attributes/view.ctp:41
+#: /View/Builtins/index.ctp:27
+#: /View/Events/index.ctp:28
+#: /View/ItemPlaces/index.ctp:27
+#: /View/Items/index.ctp:23
+#: /View/Items/view.ctp:59
+#: /View/Openids/index.ctp:21
+#: /View/Places/index.ctp:23
+#: /View/Places/view.ctp:54;85
+#: /View/Properties/index.ctp:26
+#: /View/Uploads/index.ctp:27
+#: /View/Users/index.ctp:24
+#: /View/Users/view.ctp:42;75
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: View/Attributes/index.ctp:26
-#: View/Builtins/index.ctp:33
-#: View/Events/index.ctp:37
-#: View/ItemPlaces/index.ctp:36
-#: View/Items/index.ctp:33
-#: View/Openids/index.ctp:27
-#: View/Places/index.ctp:32
-#: View/Properties/index.ctp:35
-#: View/Uploads/index.ctp:36
-#: View/Users/index.ctp:33
+#: /View/Attributes/index.ctp:20
+#: /View/Attributes/view.ctp:42
+#: /View/Builtins/index.ctp:28
+#: /View/Events/index.ctp:29
+#: /View/ItemPlaces/index.ctp:28
+#: /View/Items/index.ctp:24
+#: /View/Items/view.ctp:60;94;128
+#: /View/Openids/index.ctp:22
+#: /View/Places/index.ctp:24
+#: /View/Places/view.ctp:55;86
+#: /View/Properties/index.ctp:27
+#: /View/Uploads/index.ctp:28
+#: /View/Users/index.ctp:25
+#: /View/Users/view.ctp:43;76
+msgid "Delete"
+msgstr "Entfernen"
+
+#: /View/Attributes/index.ctp:20
+#: /View/Attributes/view.ctp:42
+#: /View/Builtins/index.ctp:28
+#: /View/Events/index.ctp:29
+#: /View/ItemPlaces/index.ctp:28
+#: /View/Items/index.ctp:24
+#: /View/Items/view.ctp:128
+#: /View/Openids/index.ctp:22
+#: /View/Places/index.ctp:24
+#: /View/Places/view.ctp:28;55;86
+#: /View/Properties/index.ctp:27
+#: /View/Uploads/index.ctp:28
+#: /View/Users/index.ctp:25
+#: /View/Users/view.ctp:43;76
+msgid "Are you sure you want to delete # %s?"
+msgstr "Wollen Sie #%s wirklich löschen?"
+
+#: /View/Attributes/index.ctp:28
+#: /View/Builtins/index.ctp:36
+#: /View/Events/index.ctp:37
+#: /View/ItemPlaces/index.ctp:36
+#: /View/Items/index.ctp:32
+#: /View/Openids/index.ctp:30
+#: /View/Places/index.ctp:32
+#: /View/Properties/index.ctp:35
+#: /View/Uploads/index.ctp:36
+#: /View/Users/index.ctp:33
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
 msgstr "Seite {:page} von {:pages}, zeige {:current} Einträge von {:count} gesamt, beginnend mit Eintrag {:start}, endend mit {:end}"
 
-#: View/Attributes/index.ctp:32
-#: View/Builtins/index.ctp:39
-#: View/Events/index.ctp:44
-#: View/ItemPlaces/index.ctp:43
-#: View/Items/index.ctp:40
-#: View/Openids/index.ctp:33
-#: View/Places/index.ctp:38
-#: View/Properties/index.ctp:42
-#: View/Uploads/index.ctp:42
-#: View/Users/index.ctp:40
+#: /View/Attributes/index.ctp:34
+#: /View/Builtins/index.ctp:42
+#: /View/Events/index.ctp:44
+#: /View/ItemPlaces/index.ctp:43
+#: /View/Items/index.ctp:39
+#: /View/Openids/index.ctp:36
+#: /View/Places/index.ctp:38
+#: /View/Properties/index.ctp:42
+#: /View/Uploads/index.ctp:42
+#: /View/Users/index.ctp:40
 msgid "previous"
 msgstr "zurück"
 
-#: View/Attributes/index.ctp:34
-#: View/Builtins/index.ctp:41
-#: View/Events/index.ctp:46
-#: View/ItemPlaces/index.ctp:45
-#: View/Items/index.ctp:42
-#: View/Openids/index.ctp:35
-#: View/Places/index.ctp:40
-#: View/Properties/index.ctp:44
-#: View/Uploads/index.ctp:44
-#: View/Users/index.ctp:42
+#: /View/Attributes/index.ctp:36
+#: /View/Builtins/index.ctp:44
+#: /View/Events/index.ctp:46
+#: /View/ItemPlaces/index.ctp:45
+#: /View/Items/index.ctp:41
+#: /View/Openids/index.ctp:38
+#: /View/Places/index.ctp:40
+#: /View/Properties/index.ctp:44
+#: /View/Uploads/index.ctp:44
+#: /View/Users/index.ctp:42
 msgid "next"
 msgstr "weiter"
 
-#: View/Attributes/index.ctp:41
-#: View/Attributes/view.ctp:23
-#: View/Properties/add.ctp:26
-#: View/Properties/edit.ctp:21
-#: View/Properties/index.ctp:57
-#: View/Properties/view.ctp:34
-msgid "New Attribute"
-msgstr ""
-
-#: View/Attributes/view.ctp:3
-#: View/Items/view.ctp:47
-#: View/Properties/view.ctp:9
+#: /View/Attributes/view.ctp:6
+#: /View/Items/view.ctp:47
+#: /View/Properties/view.ctp:12
 msgid "Attribute"
 msgstr "Attribut"
 
-#: View/Attributes/view.ctp:5;33
-#: View/Builtins/view.ctp:4
-#: View/Events/view.ctp:7
-#: View/Items/view.ctp:10;149
-#: View/Places/view.ctp:4;37;70
-#: View/Properties/view.ctp:4
-#: View/Uploads/view.ctp:7
-#: View/Users/view.ctp:4;30
+#: /View/Attributes/view.ctp:8;25
+#: /View/Builtins/view.ctp:7
+#: /View/Events/view.ctp:7
+#: /View/Items/view.ctp:10;149
+#: /View/Places/view.ctp:7;40;73
+#: /View/Properties/view.ctp:7
+#: /View/Uploads/view.ctp:7
+#: /View/Users/view.ctp:7;61
 msgid "Id"
 msgstr "ID"
 
-#: View/Attributes/view.ctp:10
-#: View/Items/view.ctp:17
-#: View/Places/view.ctp:71
-#: View/Uploads/view.ctp:12
-#: View/Users/view.ctp:14
+#: /View/Attributes/view.ctp:13
+#: /View/Items/view.ctp:17
+#: /View/Places/view.ctp:74
+#: /View/Uploads/view.ctp:12
+#: /View/Users/view.ctp:17
 msgid "Name"
 msgstr "Name"
 
-#: View/Attributes/view.ctp:21
-msgid "Delete Attribute"
-msgstr "Attribut entfernen"
-
-#: View/Attributes/view.ctp:29
-#: View/Items/view.ctp:42
+#: /View/Attributes/view.ctp:21
+#: /View/Items/view.ctp:42
 msgid "Related Properties"
 msgstr "zugehörige Eigenschaften"
 
-#: View/Attributes/view.ctp:34
+#: /View/Attributes/view.ctp:26
 msgid "Attribute Id"
 msgstr "Attribut-ID"
 
-#: View/Attributes/view.ctp:35
-#: View/Items/view.ctp:48
-#: View/Properties/add.ctp:11
-#: View/Properties/view.ctp:14
+#: /View/Attributes/view.ctp:27
+#: /View/Items/view.ctp:48
+#: /View/Properties/add.ctp:13
+#: /View/Properties/view.ctp:17
 msgid "Value"
 msgstr "Wert"
 
-#: View/Attributes/view.ctp:36
-#: View/Users/view.ctp:32
+#: /View/Attributes/view.ctp:28
+#: /View/Users/view.ctp:63
 msgid "Item Id"
 msgstr "Objekt-ID"
 
-#: View/Builtins/add.ctp:5
+#: /View/Builtins/add.ctp:8
 msgid "Add Builtin"
 msgstr "Neuer Verbaut-In-Eintrag"
 
-#: View/Builtins/add.ctp:10
+#: /View/Builtins/add.ctp:13
 msgid "included in"
 msgstr "befinded sich in"
 
-#: View/Builtins/add.ctp:21
-#: View/Builtins/edit.ctp:19
-#: View/Builtins/view.ctp:31
-msgid "List Builtins"
-msgstr "Einbauten auflisten"
-
-#: View/Builtins/edit.ctp:4
-#: View/Builtins/view.ctp:29
+#: /View/Builtins/edit.ctp:7
 msgid "Edit Builtin"
 msgstr "Einbau bearbeiten"
 
-#: View/Builtins/index.ctp:2
+#: /View/Builtins/index.ctp:5
 msgid "Builtins"
 msgstr "Einbauten"
 
-#: View/Builtins/index.ctp:48
-#: View/Builtins/view.ctp:32
-msgid "New Builtin"
-msgstr "Neuer Einbau"
-
-#: View/Builtins/view.ctp:2
+#: /View/Builtins/view.ctp:5
 msgid "Builtin"
 msgstr "Einbau"
 
-#: View/Builtins/view.ctp:9
-#: View/Events/view.ctp:17
-#: View/ItemPlaces/index.ctp:11
-#: View/ItemPlaces/view.ctp:10
-#: View/Items/view.ctp:6
-#: View/Properties/view.ctp:19
-#: View/Uploads/view.ctp:22
+#: /View/Builtins/view.ctp:12
+#: /View/Events/view.ctp:17
+#: /View/ItemPlaces/index.ctp:11
+#: /View/ItemPlaces/view.ctp:13
+#: /View/Items/view.ctp:6
+#: /View/Properties/view.ctp:22
+#: /View/Uploads/view.ctp:22
 msgid "Item"
 msgstr "Objekt"
 
-#: View/Builtins/view.ctp:14
+#: /View/Builtins/view.ctp:17
 msgid "Amount"
 msgstr "Anzahl"
 
-#: View/Builtins/view.ctp:19
+#: /View/Builtins/view.ctp:22
 msgid "Included Item"
 msgstr "eingeschlossenes Objekt"
 
-#: View/Builtins/view.ctp:30
-msgid "Delete Builtin"
-msgstr "Verbaut-In-Eintrag löschen"
+#: /View/Common/view.ctp:2
+#: /View/Uploads/add.ctp:2
+#: /View/Uploads/index.ctp:2
+#: /View/Uploads/view.ctp:2
+#: /View/Users/view.ctp:4
+msgid "Logout"
+msgstr "Ausloggen"
 
-#: View/Events/add.ctp:7
-msgid "Add Event"
-msgstr "Ereignis hinzufügen"
-
-#: View/Events/add.ctp:23
-#: View/Events/edit.ctp:24
-#: View/Events/index.ctp:57
-#: View/Events/view.ctp:43
-#: View/ItemPlaces/index.ctp:56
-#: View/ItemPlaces/view.ctp:29
-#: View/Items/edit.ctp:23
-#: View/Items/view.ctp:137
-#: View/Places/add.ctp:23
-#: View/Properties/add.ctp:24
-#: View/Properties/index.ctp:55
-#: View/Users/index.ctp:53
-#: View/Users/view.ctp:60
-msgid "New Item Place"
-msgstr "Neuer Ort für Objekt"
-
-#: View/Events/edit.ctp:7
-msgid "Edit Event"
-msgstr "Ereignis bearbeiten"
-
-#: View/Events/index.ctp:6
-msgid "Events"
-msgstr "Ereignisse"
-
-#: View/Events/view.ctp:5
-msgid "Event"
-msgstr "Ereignis"
-
-#: View/Events/view.ctp:12
-#: View/Items/view.ctp:150
-#: View/Places/view.ctp:9;38
-#: View/Users/view.ctp:31
-msgid "Description"
-msgstr "Beschreibung"
-
-#: View/Events/view.ctp:22
-#: View/Items/view.ctp:151
-#: View/Openids/view.ctp:9
-#: View/Users/view.ctp:2
-msgid "User"
-msgstr "Benutzer"
-
-#: View/ItemPlaces/add.ctp:7
-msgid "Add Item Place"
-msgstr "Ort für Objekt hinzufügen"
-
-#: View/ItemPlaces/index.ctp:6
-msgid "Item Places"
-msgstr "Orte der Objekte"
-
-#: View/ItemPlaces/index.ctp:12
-msgid "Location"
-msgstr "Lokalisierung"
-
-#: View/ItemPlaces/index.ctp:14
-#: View/ItemPlaces/view.ctp:5
-#: View/Items/view.ctp:116
-msgid "Count"
-msgstr "Anzahl"
-
-#: View/ItemPlaces/move.ctp:5
-msgid "Move Item"
-msgstr "Objekt verlagern"
-
-#: View/ItemPlaces/move.ctp:9
-msgid "Destination"
-msgstr "Ziel"
-
-#: View/ItemPlaces/move.ctp:19
-#: View/ItemPlaces/view.ctp:28
-msgid "List Item Places"
-msgstr "Orte der Objekte auflisten"
-
-#: View/ItemPlaces/select.ctp:7
-msgid "Choose Item Origin"
-msgstr "Orsprungsort des Objekts wählen"
-
-#: View/ItemPlaces/view.ctp:3
-msgid "Item Place"
-msgstr "Ort des Objekts"
-
-#: View/ItemPlaces/view.ctp:16
-#: View/Places/view.ctp:2
-msgid "Place"
-msgstr "Ort"
-
-#: View/ItemPlaces/view.ctp:26
-msgid "Edit Item Place"
-msgstr "Ort des Objekts bearbeiten"
-
-#: View/ItemPlaces/view.ctp:27
-msgid "Delete Item Place"
-msgstr "Ort des Objekts löschen"
-
-#: View/Items/add.ctp:7
-msgid "Add Item"
-msgstr "Objekt hinzufühgen"
-
-#: View/Items/edit.ctp:7
-msgid "Edit Item"
-msgstr "Objekt bearbeiten"
-
-#: View/Items/index.ctp:2
+#: /View/Common/view.ctp:3
 msgid "Profile"
 msgstr "Profil"
 
-#: View/Items/index.ctp:7
-msgid "Items"
-msgstr "Objekte"
+#: /View/Common/view.ctp:15
+#: /View/Places/view.ctp:32
+#: /View/Uploads/add.ctp:20
+#: /View/Uploads/index.ctp:53
+#: /View/Uploads/view.ctp:39
+msgid "New Item"
+msgstr "Neues Objekt"
 
-#: View/Items/index.ctp:23
-msgid "Label"
-msgstr "Etikett"
+#: /View/Common/view.ctp:17
+#: /View/Items/view.ctp:137
+msgid "New Item Place"
+msgstr "Neuer Ort für Objekt"
 
-#: View/Items/view.ctp:24
-#: View/Places/view.ctp:72
-msgid "Erased"
-msgstr "Entfernt"
+#: /View/Common/view.ctp:19
+#: /View/Places/view.ctp:30
+#: /View/Uploads/add.ctp:22
+#: /View/Uploads/index.ctp:55
+#: /View/Uploads/view.ctp:41
+msgid "New Place"
+msgstr "Neuer Ort"
 
-#: View/Items/view.ctp:29
-msgid "yes"
-msgstr "ja"
+#: /View/Common/view.ctp:21
+#: /View/Items/view.ctp:69
+#: /View/Uploads/add.ctp:24
+#: /View/Uploads/index.ctp:57
+#: /View/Uploads/view.ctp:43
+msgid "New Property"
+msgstr "Neue Eigenschaft"
 
-#: View/Items/view.ctp:30
-msgid "no"
-msgstr "nein"
+#: /View/Common/view.ctp:23
+msgid "New Attribute"
+msgstr "Neues Attribut"
 
-#: View/Items/view.ctp:36
-msgid "Create Label"
-msgstr "Etikett erzeugen"
+#: /View/Common/view.ctp:25
+#: /View/Uploads/add.ctp:26
+#: /View/Uploads/index.ctp:59
+#: /View/Uploads/view.ctp:45
+msgid "New User"
+msgstr "neuer Benutzer"
 
-#: View/Items/view.ctp:60;94
-msgid "Are you sure you want to delete \"%s\"?"
-msgstr "Wollen Sie \"%s\" wirklich löschen?"
+#: /View/Common/view.ctp:31
+#: /View/Uploads/add.ctp:32
+#: /View/Uploads/index.ctp:65
+#: /View/Uploads/view.ctp:51
+msgid "Lists"
+msgstr "Listen"
 
-#: View/Items/view.ctp:76
-msgid "Related Files"
-msgstr "zugehörige Dateien"
+#: /View/Common/view.ctp:34
+#: /View/Places/view.ctp:31
+#: /View/Uploads/add.ctp:35
+#: /View/Uploads/index.ctp:68
+#: /View/Uploads/view.ctp:54
+msgid "List Items"
+msgstr "Objekte auflisten"
 
-#: View/Items/view.ctp:81
-msgid "File Name"
-msgstr "Dateiname"
+#: /View/Common/view.ctp:36
+#: /View/Uploads/add.ctp:37
+#: /View/Uploads/index.ctp:70
+#: /View/Uploads/view.ctp:56
+msgid "List Events"
+msgstr "Ereignisse auflisten"
 
-#: View/Items/view.ctp:82
-#: View/Uploads/view.ctp:27
-msgid "Type"
-msgstr "Typ"
+#: /View/Common/view.ctp:38
+#: /View/Places/view.ctp:29
+#: /View/Uploads/add.ctp:39
+#: /View/Uploads/index.ctp:72
+#: /View/Uploads/view.ctp:58
+msgid "List Places"
+msgstr "Orte auflisten"
 
-#: View/Items/view.ctp:103;185
-msgid "Add File"
-msgstr "Datei hinzufügen"
+#: /View/Common/view.ctp:40
+#: /View/Uploads/add.ctp:41
+#: /View/Uploads/index.ctp:74
+#: /View/Uploads/view.ctp:60
+msgid "List Properties"
+msgstr "Eigenschaften auflisten"
 
-#: View/Items/view.ctp:110
-msgid "Related Item Places"
-msgstr "zugehörige Orte des Objekts"
+#: /View/Common/view.ctp:42
+#: /View/Uploads/add.ctp:43
+#: /View/Uploads/index.ctp:76
+#: /View/Uploads/view.ctp:62
+msgid "List Users"
+msgstr "Benutzer auflisten"
 
-#: View/Items/view.ctp:115
-msgid "Place "
-msgstr "Orte "
-
-#: View/Items/view.ctp:144
-#: View/Users/view.ctp:26
-msgid "Related Events"
-msgstr "zugehörige Ereignisse"
-
-#: View/Items/view.ctp:168
-msgid "New Event"
-msgstr "neues Ereignis"
-
-#: View/Openids/add.ctp:4
-msgid "Add Openid"
-msgstr "OpenID hinzufügen"
-
-#: View/Openids/add.ctp:15
-#: View/Openids/edit.ctp:17
-#: View/Openids/view.ctp:21
+#: /View/Common/view.ctp:44
 msgid "List Openids"
 msgstr "OpenIDs auflisten"
 
-#: View/Openids/edit.ctp:4
-#: View/Openids/view.ctp:19
+#: /View/Common/view.ctp:46
+msgid "All Labels"
+msgstr "Alle Etiketten"
+
+#: /View/Events/add.ctp:7
+msgid "Add Event"
+msgstr "Ereignis hinzufügen"
+
+#: /View/Events/edit.ctp:7
+msgid "Edit Event"
+msgstr "Ereignis bearbeiten"
+
+#: /View/Events/index.ctp:6
+msgid "Events"
+msgstr "Ereignisse"
+
+#: /View/Events/view.ctp:5
+msgid "Event"
+msgstr "Ereignis"
+
+#: /View/Events/view.ctp:12
+#: /View/Items/view.ctp:150
+#: /View/Places/view.ctp:12;41
+#: /View/Users/view.ctp:62
+msgid "Description"
+msgstr "Beschreibung"
+
+#: /View/Events/view.ctp:22
+#: /View/Items/view.ctp:152
+#: /View/Openids/view.ctp:12
+#: /View/Users/view.ctp:5
+msgid "User"
+msgstr "Benutzer"
+
+#: /View/Events/view.ctp:28
+msgid "Created"
+msgstr "Erzeugungsdatum: "
+
+#: /View/ItemPlaces/add.ctp:7
+msgid "Add Item Place"
+msgstr "Ort für Objekt hinzufügen"
+
+#: /View/ItemPlaces/index.ctp:6
+msgid "Item Places"
+msgstr "Orte der Objekte"
+
+#: /View/ItemPlaces/index.ctp:12
+msgid "Location"
+msgstr "Lokalisierung"
+
+#: /View/ItemPlaces/index.ctp:14
+#: /View/ItemPlaces/view.ctp:8
+#: /View/Items/view.ctp:116
+msgid "Count"
+msgstr "Anzahl"
+
+#: /View/ItemPlaces/move.ctp:7
+msgid "Move Item"
+msgstr "Objekt verlagern"
+
+#: /View/ItemPlaces/move.ctp:11
+msgid "Destination"
+msgstr "Ziel"
+
+#: /View/ItemPlaces/select.ctp:7
+msgid "Choose Item Origin"
+msgstr "Orsprungsort des Objekts wählen"
+
+#: /View/ItemPlaces/view.ctp:6
+msgid "Item Place"
+msgstr "Ort des Objekts"
+
+#: /View/ItemPlaces/view.ctp:19
+#: /View/Places/view.ctp:5
+msgid "Place"
+msgstr "Ort"
+
+#: /View/Items/add.ctp:7
+msgid "Add Item"
+msgstr "Objekt hinzufühgen"
+
+#: /View/Items/edit.ctp:7
+msgid "Edit Item"
+msgstr "Objekt bearbeiten"
+
+#: /View/Items/index.ctp:6
+msgid "Items"
+msgstr "Objekte"
+
+#: /View/Items/index.ctp:22
+msgid "Label"
+msgstr "Etikett"
+
+#: /View/Items/view.ctp:24
+#: /View/Places/view.ctp:75
+msgid "Erased"
+msgstr "Entfernt"
+
+#: /View/Items/view.ctp:29
+msgid "yes"
+msgstr "ja"
+
+#: /View/Items/view.ctp:30
+msgid "no"
+msgstr "nein"
+
+#: /View/Items/view.ctp:36
+msgid "Create Label"
+msgstr "Etikett erzeugen"
+
+#: /View/Items/view.ctp:60;94
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Wollen Sie \"%s\" wirklich löschen?"
+
+#: /View/Items/view.ctp:76
+msgid "Related Files"
+msgstr "zugehörige Dateien"
+
+#: /View/Items/view.ctp:81
+msgid "File Name"
+msgstr "Dateiname"
+
+#: /View/Items/view.ctp:82
+#: /View/Uploads/view.ctp:27
+msgid "Type"
+msgstr "Typ"
+
+#: /View/Items/view.ctp:103
+msgid "Add File"
+msgstr "Datei hinzufügen"
+
+#: /View/Items/view.ctp:110
+msgid "Related Item Places"
+msgstr "Zugehörige Orte"
+
+#: /View/Items/view.ctp:115
+msgid "Place "
+msgstr "Orte "
+
+#: /View/Items/view.ctp:127
+msgid "Move"
+msgstr "Verschieben"
+
+#: /View/Items/view.ctp:144
+#: /View/Users/view.ctp:57
+msgid "Related Events"
+msgstr "zugehörige Ereignisse"
+
+#: /View/Items/view.ctp:151
+msgid "Date"
+msgstr "Datum"
+
+#: /View/Items/view.ctp:170
+msgid "New Event"
+msgstr "neues Ereignis"
+
+#: /View/Openids/add.ctp:7
+msgid "Add Openid"
+msgstr "OpenID hinzufügen"
+
+#: /View/Openids/edit.ctp:7
 msgid "Edit Openid"
 msgstr "OpenID bearbeiten"
 
-#: View/Openids/index.ctp:2
+#: /View/Openids/index.ctp:5
+#: /View/Users/view.ctp:29
 msgid "Openids"
 msgstr "OpenIDs"
 
-#: View/Openids/index.ctp:42
-#: View/Openids/view.ctp:22
-msgid "New Openid"
-msgstr "neue OpenID"
-
-#: View/Openids/view.ctp:2
+#: /View/Openids/view.ctp:5
 msgid "Openid"
 msgstr "OpenID"
 
-#: View/Openids/view.ctp:4
+#: /View/Openids/view.ctp:7
+#: /View/Users/view.ctp:33
 msgid "Identity"
 msgstr "Identität"
 
-#: View/Openids/view.ctp:20
-msgid "Delete Openid"
-msgstr "OpenID löschen"
-
-#: View/Places/add.ctp:7
+#: /View/Places/add.ctp:7
 msgid "Add Place"
 msgstr "Ort hinzufügen"
 
-#: View/Places/add.ctp:9
+#: /View/Places/add.ctp:9
 msgid "Name this place:"
 msgstr "Bennenen Sie den Ort:"
 
-#: View/Places/add.ctp:11
+#: /View/Places/add.ctp:11
 msgid "located at"
 msgstr "befindet sich wo?"
 
-#: View/Places/edit.ctp:4
-#: View/Places/view.ctp:24
+#: /View/Places/edit.ctp:7
+#: /View/Places/view.ctp:27
 msgid "Edit Place"
 msgstr "Ort bearbeiten"
 
-#: View/Places/index.ctp:5
+#: /View/Places/index.ctp:5
 msgid "Places"
 msgstr "Orte"
 
-#: View/Places/view.ctp:14
+#: /View/Places/view.ctp:17
 msgid "Outer Place"
 msgstr "Umgebender Ort"
 
-#: View/Places/view.ctp:25
+#: /View/Places/view.ctp:28
 msgid "Delete Place"
 msgstr "Ort löschen"
 
-#: View/Places/view.ctp:33
+#: /View/Places/view.ctp:36
 msgid "Related Places"
 msgstr "zugehörige Orte"
 
-#: View/Places/view.ctp:39
+#: /View/Places/view.ctp:42
 msgid "Place Id"
 msgstr "Orts-ID"
 
-#: View/Places/view.ctp:61
+#: /View/Places/view.ctp:64
 msgid "New Inner Place"
 msgstr "neuer Ort darin"
 
-#: View/Places/view.ctp:66
+#: /View/Places/view.ctp:69
 msgid "Related Items"
 msgstr "zugehörige Objekte"
 
-#: View/Properties/add.ctp:6
+#: /View/Properties/add.ctp:8
 msgid "Add Property"
 msgstr "Eigenschaft hinzufügen"
 
-#: View/Properties/edit.ctp:4
-#: View/Properties/view.ctp:29
+#: /View/Properties/edit.ctp:7
 msgid "Edit Property"
 msgstr "Eigenschaft bearbeiten"
 
-#: View/Properties/index.ctp:6
+#: /View/Properties/index.ctp:6
 msgid "Properties"
 msgstr "Eigenschaften"
 
-#: View/Properties/view.ctp:2
+#: /View/Properties/view.ctp:5
 msgid "Property"
 msgstr "Eigenschaft"
 
-#: View/Properties/view.ctp:30
-msgid "Delete Property"
-msgstr "Eigenschaft entfernen"
-
-#: View/Uploads/add.ctp:7
+#: /View/Uploads/add.ctp:7
 msgid "Upload File"
 msgstr "Datei hochladen"
 
-#: View/Uploads/index.ctp:5
+#: /View/Uploads/index.ctp:5
 msgid "Uploads"
 msgstr "Uploads"
 
-#: View/Uploads/view.ctp:5
+#: /View/Uploads/view.ctp:5
 msgid "Upload"
 msgstr "Upload"
 
-#: View/Uploads/view.ctp:17
+#: /View/Uploads/view.ctp:17
 msgid "Path"
 msgstr "Pfad"
 
-#: View/Users/add.ctp:5
+#: /View/Users/add.ctp:7
 msgid "Add User"
 msgstr "Nutzer hinzufügen"
 
-#: View/Users/add.ctp:8
+#: /View/Users/add.ctp:10
 msgid "Complete Name"
 msgstr "vollständiger Name"
 
-#: View/Users/edit.ctp:7
+#: /View/Users/edit.ctp:7
 msgid "Edit User"
 msgstr "Nutezer bearbeiten"
 
-#: View/Users/index.ctp:6
+#: /View/Users/index.ctp:6
 msgid "Users"
 msgstr "Nutzer"
 
-#: View/Users/login.ctp:5
+#: /View/Users/login.ctp:5
 msgid "Please login using Username and Password:"
 msgstr "Bitte mit Benutzername und Passwort anmelden"
 
-#: View/Users/login.ctp:11
+#: /View/Users/login.ctp:11
 msgid "Login"
 msgstr "Einloggen"
 
-#: View/Users/login.ctp:13
+#: /View/Users/login.ctp:13
 msgid "Login with OpenId"
 msgstr "mit OpenID Einloggen"
 
-#: View/Users/view.ctp:9
+#: /View/Users/view.ctp:12
 msgid "Username"
 msgstr "Benutzername"
 
-#: View/Users/view.ctp:19
+#: /View/Users/view.ctp:22
 msgid "Supervisor"
 msgstr "Betreuer"
 
-#: Model/Attribute.php:validation for field name
-#: Model/Event.php:validation for field description
-#: Model/Item.php:validation for field name
-#: Model/Openid.php:validation for field identity
-#: Model/Place.php:validation for field description
-#: Model/Property.php:validation for field value
-#: Model/Upload.php:validation for field name;validation for field path
-#: Model/User.php:validation for field username;validation for field password;validation for field name
-msgid "notempty"
-msgstr "nicht-leer"
+#: /View/Users/view.ctp:52
+msgid "New Openid"
+msgstr "neue OpenID"
 
-#: Model/Builtin.php:validation for field item_id;validation for field amount;validation for field included_item_id
-#: Model/Event.php:validation for field item_id;validation for field user_id
-#: Model/Openid.php:validation for field user_id
-#: Model/Property.php:validation for field item_id
-#: Model/Upload.php:validation for field item_id
-#: Model/User.php:validation for field user_id
-msgid "numeric"
-msgstr "numerisch"
-
-#: Model/Item.php:validation for field erased
-msgid "boolean"
-msgstr "boolean"
