@@ -25,6 +25,7 @@ class OpenidsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
+		$id=preg_replace('/_/', '://', $id, 1);
 		$this->Openid->id = $id;
 		if (!$this->Openid->exists()) {
 			throw new NotFoundException(__('Invalid openid'));
@@ -69,6 +70,7 @@ class OpenidsController extends AppController {
  * @return void
  */
 	public function edit($id = null) {
+		$id=preg_replace('/_/', '://', $id, 1);
 		$this->Openid->id = $id;
 		if (!$this->Openid->exists()) {
 			throw new NotFoundException(__('Invalid openid'));
@@ -96,6 +98,7 @@ class OpenidsController extends AppController {
  * @return void
  */
 	public function delete($id = null) {
+		$id=preg_replace('/_/', '://', $id, 1);
 		if (!$this->request->is('post')) {
 			throw new MethodNotAllowedException();
 		}

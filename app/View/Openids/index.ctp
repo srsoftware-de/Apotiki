@@ -17,9 +17,9 @@
 			<?php echo $this->Html->link($openid['User']['name'], array('controller' => 'users', 'action' => 'view', $openid['User']['id'])); ?>
 		</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $openid['Openid']['identity'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $openid['Openid']['identity'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $openid['Openid']['identity']), null, __('Are you sure you want to delete # %s?', $openid['Openid']['identity'])); ?>
+			<?php echo $this->Html->link(__('View'), array('action' => 'view', str_replace("://", "_", $openid['Openid']['identity']))); ?>
+			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', str_replace("://", "_", $openid['Openid']['identity']))); ?>
+			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', str_replace("://", "_", $openid['Openid']['identity'])), null, __('Are you sure you want to delete %s?', $openid['Openid']['identity'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
