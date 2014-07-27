@@ -93,7 +93,7 @@ function runSetup(){
 	} else {
 		if (mysql_select_db($dbas,$connection)){
 			mysql_query("CREATE TABLE attributes (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50));");
-			mysql_query("CREATE TABLE events (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, description TEXT NOT NULL, item_id INT NOT NULL, user_id INT NOT NULL);");
+			mysql_query("CREATE TABLE events (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, description TEXT NOT NULL, item_id INT NOT NULL, user_id INT NOT NULL, created DATETIME DEFAULT NULL);");
 			mysql_query("CREATE TABLE item_places (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, place_id INT NOT NULL, item_id INT NOT NULL, count INT NOT NULL);");
 			mysql_query("CREATE TABLE items (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name TEXT NOT NULL, erased BOOLEAN DEFAULT FALSE);");
 			mysql_query("CREATE TABLE places (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, description TEXT NOT NULL, place_id INT);");
