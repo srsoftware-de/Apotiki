@@ -39,8 +39,8 @@
 		<tr>
 			<td><?php echo $openid['identity']; ?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'openids', 'action' => 'edit', $openid['identity'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'openids', 'action' => 'delete', $openid['identity']), null, __('Are you sure you want to delete # %s?', $openid['identity'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'openids', 'action' => 'edit', base64_encode($openid['identity']))); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'openids', 'action' => 'delete', base64_encode($openid['identity'])), null, __('Are you sure you want to delete %s?', $openid['identity'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>

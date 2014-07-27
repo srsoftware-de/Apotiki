@@ -28,8 +28,8 @@ class Openid extends AppModel {
  */
 	public $validate = array(
 		'identity' => array(
-			'notempty' => array(
-				'rule' => array('notempty'),
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
