@@ -1,7 +1,7 @@
 Apotiki
 =======
 
-ein Inventarverwaltungssoftware von SRSoftware
+ein Inventarverwaltungssoftware von keawe.de
 
 Diese Software ist eine einfache Inventarverwaltung basierend auf CakePHP.
 Sie ist benannt nach dem griechischen Wort "Αποθήκη" für Lager.
